@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <!--<include
+        android:id="@+id/tool_bar_AccountManagement"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp"/>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/accountBalance"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/accountBalance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/createAccount"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/createAccount"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cashIn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/cashIn"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cashOutMenu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/cashOut"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/remmittanceMenu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/remmittance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/billPayMenu"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/billPay"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/transactionApproval"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/transactionApproval"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/transactionCancel"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/transactionCancel"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tariff"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/tariff"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reports"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/reports"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/prints"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/rePrints"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/customerService"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/customerService"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+

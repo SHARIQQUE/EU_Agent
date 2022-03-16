@@ -1,0 +1,86 @@
+package franchise.cashtocash;
+
+////////////////////// Cash To Cash Send Money    /////////////////////////////////
+
+API NAME???    SendCaseJSON
+
+Request :
+{
+"amount":"200",
+"vendorcode":"MICR",
+"agentcode":"237000271009",
+"source":"237000271015",
+"pin":"08F0CEF78D6EECA3C1C35B28FCF822A7",
+"requestcts":"2017-09-21 18:13:49",
+"pintype":"IPIN",
+"comments":"rajesh",
+"destination":"237000271015"
+}
+
+Response :
+
+{
+"total":"200",
+"agentcode":"237000271009",
+"resultcode":"0",
+"fees":"0.0",
+"code":"0",
+"responsevalue":"Transaction Successful",
+"destination":"237000271015",
+"agnentName":"Bheem agt",
+"vendorcode":"MICROEU",
+"amount":"200",
+"accountded":"10F3148053701",
+"source":"237000271015",
+"resultdescription":"Transaction Successful",
+"responsects":"13/10/2017 18:21:30",
+"balancebefore":"13000.000",
+"referencenumber":"P8M0310170022",
+"transid":"6645433"
+}
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+{"total":"600","agentcode":"237785785785","resultcode":"0","fees":"0.0","code":"0","responsevalue":"Transaction Successful","destination":"237999999999","agnentName":"test","vendorcode":"MICROEU","amount":"600","accountded":"10F3148053701","source":"237858585858","resultdescription":"Transaction Successful","responsects":"17/10/2017 11:19:45","balancebefore":"12800.000","referencenumber":"P8M0310170033","transid":"9323337"}
+
+
+
+//////////////////////////   Receive Money Cash To Cash    /////////////////////////////
+
+API NAME ???? ReceivedCaseJSON
+
+Json Request :
+{
+"agentcode":"237000271009",
+"pin":"E7DC69989C587511B6BA545737ABEB98",
+"source":"237000271015",
+"vendorcode":"MICR",
+"cnitype":"CI",
+"cninumber":"K2SO4AL2",
+"expirydate":"2019-10-11",
+"referencenumber":"P8M0310170025",
+"amount":"200",
+"destination":"237000271015",
+"requestcts":"2017-09-21",
+"pintype":"MPIN",
+"comments":"rajesh"
+}
+
+
+Json Response :
+{
+"agentcode":"237000271009",
+"status":"",
+"resultcode":"0",
+"responsevalue":"Transaction Successful",
+"code":"",
+"vendorcode":"MICROEU",
+"source":"237000271015",
+"resultdescription":"Transaction Successful",
+"transactionid":"375",
+"transid":"6645584",
+"referencenumber":"P8M0310170025"
+}

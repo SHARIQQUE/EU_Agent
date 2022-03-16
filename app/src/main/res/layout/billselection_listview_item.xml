@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:descendantFocusability="blocksDescendants"
+              android:gravity="center"
+
+
+              android:orientation="horizontal"
+              android:padding="10dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+android:gravity="center"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".3"
+                android:text="@string/invoiceNoTitleReview"
+            />
+
+            <TextView
+
+                android:id="@+id/billNoTextView_BillSelection_Item_TxtView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight=".7"
+                android:text="aadafdasfasf"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".3"
+                android:text="@string/amountTitleReview"
+            />
+
+            <TextView
+                android:id="@+id/amountTextView_BillSelection_Item_TxtView"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight=".7"
+                android:text="aadafdasfasf"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".3"
+                android:text="@string/feeTitleReview"
+                />
+
+            <TextView
+                android:id="@+id/feeAmountTextView_BillSelection_Item_TxtView"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight=".7"
+                android:text="aadafdasfasf"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+                      android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".3"
+                android:text="@string/billDateTitleReview"
+            />
+
+            <TextView
+                android:id="@+id/dueDateTextView_BillSelection_Item_TxtView"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight=".7"
+                android:text="aadafdasfasf"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+android:gravity="left"
+
+        android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/billNoTextView_BillSelection_Item_CheckBox"
+        android:layout_width="30dp"
+        android:layout_height="35dp" android:layout_marginLeft="0dp"
+
+        android:focusable="false"
+android:visibility="gone"
+        android:enabled="false"
+android:background="@drawable/correct"
+        android:focusableInTouchMode="false"
+        android:gravity="center"
+    />
+
+</LinearLayout>
+</LinearLayout>

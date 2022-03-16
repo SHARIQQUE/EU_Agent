@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar_remmetanceSendMoneymenu"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp" />
+
+    <Button
+        android:id="@+id/eraMobileNational"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundcorner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/eraMobileNational"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/eraMobileInternational"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundcorner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/diffrentCountry"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

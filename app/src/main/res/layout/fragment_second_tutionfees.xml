@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <!-- <include
+            android:id="@+id/tool_bar_MoneyTransfer"
+            layout="@layout/toolbar_custom"
+            android:elevation="1dp" />-->
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7">
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                  >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+
+                            android:gravity="center"
+                            android:text="@string/pay"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="@string/tution_fees_capital"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="left"
+                        android:visibility="gone"
+                        android:layout_marginTop="40dp"
+                        android:text="@string/country"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <Spinner
+                        android:id="@+id/spinner_schoolName"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30dp"
+
+
+                        android:layout_gravity="left"
+                        android:background="@drawable/spinner_background"
+                        android:gravity="left"
+                        android:layout_height="43dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/spinnerSendMode_AccToCash"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/spinner_background"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:visibility="gone" />
+
+
+
+
+
+                    <Spinner
+                        android:id="@+id/spinnerAccountToDebit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:entries="@array/AccountType"
+                        android:visibility="gone">
+
+
+                    </Spinner>
+
+
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/schoolcode_editText"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/edittext_bg"
+                            android:layout_height="40dp"
+                            android:hint="@string/schoolCode"
+                            android:visibility="gone"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center_vertical|left"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPersonName"
+                            android:maxLength="16"
+                            android:maxLines="1"
+                            android:padding="12dp"
+                            android:singleLine="true"
+                            android:textSize="16dp" />
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundcorner"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/searchNew"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

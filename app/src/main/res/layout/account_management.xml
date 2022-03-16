@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar_AccountManagement"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp" />
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/menuScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRecords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/transactionApproval"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/transactionApproval"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/transactionCancel"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/transactionCancel"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tariff"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/tariff"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reports"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/reports"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/RePrints"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/rePrints"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/prints"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/prints"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/languageChange"
+                android:textColor="#fff"
+                android:layout_width="294dp"
+                android:layout_weight=".4"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/languageChange"
+                android:background="@drawable/roundcorner"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/changeMpin"
+                android:textColor="#fff"
+                android:layout_width="294dp"
+                android:layout_weight=".4"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/changempin_new"
+                android:background="@drawable/roundcorner"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/customerService"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/customerService"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pictureSign"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/pictureSign"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/internationalRemittance"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:visibility="visible"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/international_Remittance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/otherAccount"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:visibility="gone"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/otherAccount"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="294dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight=".4"
+                android:background="@drawable/roundcorner"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/logout"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/changeLanguageLayout_LL"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        >
+
+        <Spinner
+            android:id="@+id/spinner_Language_Tariff"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/LanguageSelection"
+            >
+
+        </Spinner>
+        <Button
+            android:id="@+id/customerService_CustomerService"
+            android:textColor="#fff"
+            android:layout_width="294dp"
+            android:layout_weight=".4"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/btn_changelanguage"
+            android:background="@drawable/roundcorner"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

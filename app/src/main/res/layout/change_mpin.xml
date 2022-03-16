@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_Billpayment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tool_bar_Changempin"
+            layout="@layout/toolbar_custom"
+            android:elevation="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/PleaseEnterDetails"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/currentMpin_EditText_ChangeMpin_TIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/currentMpin_EditText_ChangeMpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:clickable="false"
+                android:gravity="center"
+                android:hint="@string/currentMpin_new"
+                android:imeOptions="actionNext"
+                android:inputType="numberPassword"
+
+                android:maxLength="4"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/newMpin_EditText_Changempin_TIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/newMpin_EditText_ChangeMpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:gravity="center"
+android:clickable="false"
+                android:hint="@string/newMpin_new"
+                android:imeOptions="actionNext"
+                android:inputType="numberPassword"
+
+                android:maxLength="4"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/confirmmpin_EditText_ChangeMpin_TIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/confirmmpin_EditText_ChangeMpin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:clickable="false"
+
+                android:hint="@string/confirmpin_new"
+                android:imeOptions="actionDone"
+                android:inputType="numberPassword"
+
+                android:maxLength="4"
+                android:maxLines="1" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/proceed_changempin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/roundcorner"
+            android:text="@string/proceed"
+
+            android:textColor="#fff" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

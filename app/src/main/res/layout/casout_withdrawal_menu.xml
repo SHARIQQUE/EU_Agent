@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar_MoneyTransfer"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp" />
+
+    <Button
+        android:id="@+id/sameBranch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/roundcorner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/sameBranch"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/diffrentBranch"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/roundcorner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/withdrawalCodeGenerate"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cashWithdrawal"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundcorner"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/withdrawalInitiateOTP"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

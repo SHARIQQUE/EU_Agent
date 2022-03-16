@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/logoeu" />
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Merchant QR Code"
+        android:textSize="6sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/merchantqr_email_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cameroon_flag" />
+
+
+    <TextView
+
+        android:id="@+id/merchantName_email_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="5sp" />
+
+    <TextView
+
+        android:id="@+id/merchantNumber_email_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="5sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

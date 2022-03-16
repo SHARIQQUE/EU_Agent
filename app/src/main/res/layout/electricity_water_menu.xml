@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <include
+        android:id="@+id/tool_bar_remmetanceSendMoneymenu"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_partone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/electricity_capital"
+
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/billPay_button"
+
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/billpay2"
+                        android:padding="10dp"
+
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/pay_bill"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/rechargeMeter_electricity_button"
+
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/recharge_meter"
+                        android:padding="10dp"
+
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/recharge_meter"
+                        android:textAllCaps="false"
+
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/rechargeAmount_button"
+
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/recharge_amount"
+                        android:padding="10dp"
+
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+
+                        android:text="@string/recharge_amount"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/setteleOutstanding_button"
+
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/settle"
+                        android:padding="10dp"
+
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/settle_outstanding"
+
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/water_capital"
+
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/billPay_button_watter"
+
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/billpay2"
+                            android:padding="10dp"
+
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/pay_bill"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/electricityWater_button_water"
+
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/recharge_meter"
+                            android:padding="10dp"
+
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/recharge_meter"
+                            android:textAllCaps="false"
+
+                            android:textColor="#000000"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/rechargeAmount_button_water"
+
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/recharge_amount"
+                            android:padding="10dp"
+
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+
+                            android:text="@string/recharge_amount"
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/setteleOutstanding_button_water"
+
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:background="@drawable/settle"
+                            android:padding="10dp"
+
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/settle_outstanding"
+
+                            android:textAllCaps="false"
+                            android:textColor="#000000"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

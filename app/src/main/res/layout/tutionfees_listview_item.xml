@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d3d3d3"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearlayout_feeType_tutionFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_feeType_tutionFee"
+
+                android:layout_weight="4"
+                android:text="FeeType_first"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/checkBox_tutionfees"
+                android:textColor="#000000"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearlayout_feeType_examFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_feeType_examFees"
+
+                android:layout_weight="4"
+                android:text="FeeType_second"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/checkBox_examFees"
+                android:textColor="#000000"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearlayout_compititionFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview_feeType_compititionFees"
+
+                android:layout_weight="4"
+                android:text="FeeType_third"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_weight="1"
+                android:id="@+id/checkBox_compititionFees"
+                android:textColor="#000000"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:id="@+id/linearlayout_edittext_tutionFees"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight=".5"
+                android:text="@string/tution_fees"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edittext_tutionFees"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight=".5"
+                android:paddingRight="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textColor="#DC1605"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_edittext_examFees"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight=".5"
+                android:text="@string/examFees"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edittext_examFees"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight=".5"
+                android:paddingRight="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textColor="#DC1605"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_edittext_compititionfees"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/edittext_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight=".5"
+                android:text="@string/competitionfees"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edittext_compititionfee"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight=".5"
+                android:paddingRight="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:textColor="#DC1605"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

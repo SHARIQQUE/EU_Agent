@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        app:title="Transaction Receipt"
+        android:layout_height="52dp">
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_result_descrepation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Transaction Successsful"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/successstamp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zigzag_grey" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Txn Type :"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txnType_Reciept"
+                android:layout_width="0dp"
+                android:text="Balance"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Sender Name :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/senderName_Reciept"
+                    android:layout_width="0dp"
+                    android:text="Vikas kumar"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Sender No:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/senderNo_Reciept"
+                    android:layout_width="0dp"
+                    android:text="Vishal jaiswal"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Reciver Name:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/reciverName_Reciept"
+                    android:layout_width="0dp"
+                    android:text="Vishal jaiswal"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Reciver No:"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/reciverNo_Reciept"
+                    android:layout_width="0dp"
+                    android:text="Vishal jaiswal"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@android:color/black"
+                    android:text="Destination Country :"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/destinationCountry_Reciept"
+                    android:layout_width="0dp"
+                    android:text="India"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@android:color/black"
+                    android:text="Amount :"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/amount_Reciept"
+                    android:layout_width="0dp"
+                    android:text="600"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Currency :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+
+                    android:id="@+id/currency_Reciept"
+                    android:layout_width="0dp"
+                    android:text="Rs."
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Txn Id :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/txnId_Reciept"
+                    android:layout_width="0dp"
+                    android:text="786945"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Token No :"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/tokenNo_Reciept"
+                    android:layout_width="0dp"
+                    android:text="786945"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:text="Agent Code :"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+                <TextView
+                    android:id="@+id/agentCode_Reciept"
+                    android:layout_width="0dp"
+                    android:text="8512002625"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

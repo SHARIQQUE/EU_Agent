@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="FRAIS_EXAMEN_BEPC"/>
+    <item type="id" name="fullpayment_FRAIS_EXAMEN_BEPC"/>
+    <item type="id" name="partial_payment_FRAIS_EXAMEN_BEPC" />
+    <item type="id" name="radiogrp_FRAIS_EXAMEN_BEPC"/>
+    <item type="id" name="edittext_FRAIS_EXAMEN_BEPC"/>
+    <item type="id" name="FRAIS_EXIGIBLES"/>
+    <item type="id" name="fullpayment_FRAIS_EXIGIBLES"/>
+    <item type="id" name="partial_payment_FRAIS_EXIGIBLES"/>
+    <item type="id" name="radiogrp_FRAIS_EXIGIBLES"/>
+    <item type="id" name="edittext_FRAIS_EXIGIBLES"/>
+    <item type="id" name="Compitation_fees"/>
+    <item type="id" name="fullpayment_Compitation_fees"/>
+    <item type="id" name="partial_payment_Compitation_fees"/>
+    <item type="id" name="radiogrp_Compitation_fees"/>
+    <item type="id" name="edittext_Compitation_fees"/>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "937267169461",
+    "firebase_url": "https://eu-ba-app.firebaseio.com",
+    "project_id": "eu-ba-app",
+    "storage_bucket": "eu-ba-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937267169461:android:e6826f3c7615b27a",
+        "android_client_info": {
+          "package_name": "com.expressunion.agent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937267169461-9c9lp4bhaot3u8dtlt76q0v24jo45umk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_96zT-jxkeqEuAhGGvcgrCejcmaLxNdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

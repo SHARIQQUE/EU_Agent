@@ -1,0 +1,35 @@
+
+
+What is a snackbar
+
+Snackbars are shown message at the bottom of the device screen,just like toast
+Snackbar may have action button optionally, Snackbar allows us to  action when user interacts with the Snackbar
+Snackbars is a advanced version of toast, it can be swipe deleted not possible in toast
+
+Difference between Toast and Snackbar
+
+A Toast messages can be customised and printed anywhere on the screen, but a Snackbar can be only showed in the bottom of the screen
+A Toast message don’t have action button, but Snackbar may have action button optionally. Though, A Snackbar shouldn’t have more than one action button
+
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                constraintLayout =(ConstraintLayout)findViewById(R.id.root_Layout);  // Root Layout ID
+
+               // snackbar.make(constraintLayout, "Simple Snackbar......", Snackbar.LENGTH_LONG).show();   // Simple Snackbar
+
+                snackbar.make(constraintLayout, "Snackbar...... ", Snackbar.LENGTH_LONG)  // snackbar click Listener
+                        .setAction("action", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Toast.makeText(LayoutDesignTemp.this,"Snackbar Click Listener",Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .show();
+            }
+        });
+
+
+What is a ConstraintLayout;
+What is a CordinateLayout;

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75">
+
+            <ScrollView
+                android:id="@+id/scrollview_sendMoney"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+
+                    <Spinner
+                        android:id="@+id/spinnerCountry"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#000000"
+
+                            android:gravity="center"
+                            android:text="@string/receiveMoney_smal"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="@string/cashToCash_cap"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+
+                    <Spinner
+                        android:id="@+id/spinner_transactionType"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:background="@drawable/spinner_background"
+                        android:layout_marginTop="30dp"
+                     >
+
+                    </Spinner>
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:gravity="center_vertical|left"
+                            android:text="@string/search_with"
+                            android:padding="12dp"
+                            android:textColor="#000000"
+                            android:singleLine="true"
+                            android:textSize="16dp"
+
+                            />
+
+                    <EditText
+                        android:id="@+id/editext_transactionReferenceNumber_receiveCash"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_bg"
+                        android:gravity="center_vertical|left"
+                        android:visibility="gone"
+
+                        android:inputType="textPersonName"
+                        android:imeOptions="actionDone"
+                        android:maxLength="16"
+                        android:padding="10dp"
+                        android:hint="@string/transactionReferencenumber_search"
+                        android:maxLines="1"
+                        android:textSize="16dp"
+
+                        />
+
+
+                        <EditText
+                            android:id="@+id/editext_transactionReferenceNumber_imoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/edittext_bg"
+                            android:gravity="center_vertical|left"
+                            android:visibility="gone"
+
+                            android:inputType="textPersonName"
+                            android:imeOptions="actionDone"
+                            android:maxLength="16"
+                            android:padding="10dp"
+                            android:hint="@string/transactionReferencenumber_search"
+                            android:maxLines="1"
+                            android:textSize="16dp"
+
+                            />
+
+                    <EditText
+                        android:id="@+id/edittext_mobileNumber_imoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edittext_bg"
+                        android:gravity="center_vertical|left"
+
+                        android:inputType="textPersonName"
+                        android:imeOptions="actionDone"
+                        android:maxLength="16"
+                        android:padding="10dp"
+                        android:hint="@string/recipientMobileNumber_search"
+                        android:maxLines="1"
+                        android:textSize="16dp"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/editext_recipientName_imoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:visibility="gone"
+
+                        android:background="@drawable/edittext_bg"
+                        android:gravity="center_vertical|left"
+
+                        android:inputType="textPersonName"
+                        android:imeOptions="actionDone"
+                        android:maxLength="16"
+                        android:padding="10dp"
+                        android:hint="@string/recipientName_search"
+                        android:maxLines="1"
+                        android:textSize="16dp"
+
+                        />
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+
+                <Button
+                    android:id="@+id/search_button_new"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundcorner"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/searchNew"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

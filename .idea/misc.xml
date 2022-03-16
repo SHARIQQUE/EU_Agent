@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID_WORKSPACE/WORKSPACE_ANDROID_THINKPAD/ESTEL_LIVE_PROJECT/EU ALL PROJECT/EU_Agent_new/app/src/main/res/layout/otherservice_new.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/account_balance.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/cash_in.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/cashout_generatesend_withdrawalcode.xml" value="0.17255434782608695" />
+        <entry key="app/src/main/res/layout/create_account_new_english.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/language_choose_menu.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/otherservice_new.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/sucess_receipt_cash_in.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/sucess_receipt_cashout_diffrent_branch.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/toolbar_custom.xml" value="0.19427083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

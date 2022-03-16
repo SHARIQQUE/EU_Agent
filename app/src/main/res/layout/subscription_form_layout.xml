@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="2dp">
+
+
+    <LinearLayout
+        android:id="@+id/top_LL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/top_LL_Left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/receipt_pic"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_LL_Center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".8"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/h1_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXPRESS UNION FINANCE  "
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/h2_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ENVOI RAPIDE D’ARGENT / EPARGNE ET INVESTISSEMENT"
+                android:textColor="#000"
+                android:textSize="6sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/h3_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:text="DEMANDE D'OUVERTURE DE COMPTE DE PROVISION EU MOBILE MONEY"
+                android:textColor="#000"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/h4_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="(Request For Opening Of an EU Account)"
+                android:textColor="#000"
+                android:textSize="6sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/top_LL_Right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/user_picture"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/center_LL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".55"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/center_LL_Left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/center_LL_Left_Left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".99"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Titulaire ci-après désigné le ''client'',"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Holder hereinafter referred to as the ''subscriber'', "
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/lastName_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="NOMS:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Last Name"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+
+
+                    android:id="@+id/firstName_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Prénom (s) :"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="first name"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/datePlaceBirth_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Date et lieu de naissance :"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date and Place of birth"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/nationality_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Nationalité"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nationality"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="N°Pièce d'identification(CNI, passeport ou carte de séjour valide):"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Identification document number (NIC, passport or residence permit)"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/identification_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="................................."
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/issueDate_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="du.....à......par .... ):"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="issued on     at     by"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+
+
+
+                <TextView
+
+
+                    android:id="@+id/profession_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Profession:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profession"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/phoneNumber_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Numéro de téléphone:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone number"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/email_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Email:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+                    android:id="@+id/maritalStatus_TxtView"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Situation matrimoniale :"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marital status"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/adress_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Adresse:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/residence_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Ville/Quartier de résidence:"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/city_textview"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Town / area"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+
+                <TextView
+
+
+                    android:id="@+id/placeName_TxtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="lieu dit :"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Called"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/center_LL_Left_Right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".01"
+                android:background="#000"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/center_LL_Right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="AGENCE D’OUVERTURE   "
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/branchName_TxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account opening branch"
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Compte de provisionEU MOBILE MONEY N°"
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" EU MOBILE MONEY account No."
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="italic" />
+
+            <TextView
+
+
+                android:id="@+id/euphone_TxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..................."
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="italic" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="LANGUE CHOISIE :"
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+
+                android:id="@+id/language_TxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="italic" />
+
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:background="@drawable/black_border_square"
+                    android:orientation="horizontal"
+                    android:padding="0dp">
+
+                    <ImageView
+
+                        android:id="@+id/user_signature"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                       />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/black_border_square"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".5"
+
+                        android:background="@drawable/black_border_square"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PIECES JOINTES :   "
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Attachments.............................."
+                android:textColor="#000"
+                android:textSize="5sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_LL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/bottom_LL_Left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="« Par la signature de la présente demande d'ouverture de compte de provision EU Mobile Money, je  certifie  l'exactitude  et  la  sincérité  des  informations  personnelles  mentionnées  ci  dessus et je déclare avoir pris connaissance des conditions d'utilisation EU Mobile Money figurant au verseau. La présente demande d'ouverture de compte de provision, les conditions d'utilisation du service EU mobile Money constituent le contrat d'abonnement au service de transfert d'argent par téléphone portable dont je déclare avoir reçu un exemplaire. Je  reconnais avoir pris  connaissance des documents contractuels et accepte sans réserve leurs conditions »"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_LL_Right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="By signing the hereby, I certify the exactness and the veracity of the personal information provided above and I attest to have read the conditions of Use of EU MOBILE MONEY ACCOUNT at the back. The hereby and the EU Mobile Money account condition of use constitute the subscription contract for the Service of Money transfer through mobile phone  which I attest to have received a copy. I acknowledge to have read all the documents of the contract and I accept without reservation the conditions"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Signature du responsable d’agence"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:gravity="center_horizontal"
+                    android:text="Fait à............................le............................"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:gravity="center_horizontal"
+                    android:text="At                                The "
+                    android:textColor="#000"
+                    android:textSize="4sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Signature du responsable d’agence                                                                                      Signature du demandeur"
+                    android:textColor="#000"
+                    android:textSize="5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Branch Manager                                                                                                                                                                           signature holder’s signature"
+                    android:textColor="#000"
+                    android:textSize="4sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

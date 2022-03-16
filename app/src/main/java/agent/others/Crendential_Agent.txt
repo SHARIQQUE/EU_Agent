@@ -1,0 +1,350 @@
+
+//////////////////////////// ////////////////////////////    PORTAL ADMIN      ////////////////////////////////////////////////////////////////
+
+EU new Agent
+
+---------------------------------------Admin---------------------
+
+http://192.168.0.224:3667/eadmin
+username::: Administrator
+pass:: abcd1234#
+
+
+---------------------------------------Portal--------------------------------
+
+http://192.168.0.224:3667/microbank/
+
+Agent:-          237 000271502
+password:-      estel@123#
+
+////////////////////////////////////////////   BANKING AGENT  (BA)      ////////////////////////////////////////////////////////////////
+
+********************   LOCAL  224  ***************     http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/   ************************
+
+Agent:-  237000271502
+Terminal - 88653599
+
+
+Agent:-          237 000271011
+Terminal Id : -  7518373483883139
+Mpin :-           1234
+
+Agent Code   : - 237000271501
+Terminal Id : - 81121475
+MPin :- 1234
+
+
+Agnet Agent Code :	237000271009
+Terminal ID :	13634087
+MPIN           1234
+
+
+///////////////  portal   Login   000271009  pass estel@123#  >  Other Account Put  000271018  ////
+
+
+******************** PUBLIC  114   ****** BA *********  http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+---------------------------------------Admin--------------------------------
+http://195.24.207.114:3667/eadmin/
+http://195.24.207.114:3667/eadminkyc/
+
+username::: Administrator
+pass:: abcd1234#
+
+---------------------------------------Portal--------------------------------
+http://195.24.207.114:3005/microbank/
+
+
+agent 3       237000271503
+terminal id   81797727
+Mpin :-       1234          // portal    Estel@123#
+
+
+agent 2       237000271502
+terminal id   26819810
+Mpin :-       1234       // portal    Estel@123#
+Mpin :-       1234       // portal    Estel@123#
+
+
+
+
+agent 4       237 000271509
+terminal id   31959458
+Mpin :-       1234
+
+agent 5       237 000271011     // Different  Branch  Branch
+terminal id   03495426
+Mpin :-       1234
+
+
+
+******************** PUBLIC   114  Franchise Login ***************  http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+
+
+Agent 1       237 785785785  ()
+terminal id   89535784
+Mpin :-       1234
+
+Agent Code :	000271014
+Terminal ID :	72634561
+mpin:-          1234
+
+
+CASH OUT DIFFRENT BRACH ..You Cash Out .000271510 Portal Then You Transfer 785785785
+
+
+------------------------- Estel IP   224  ----------------------------
+
+  237 000818181
+  TerminalID:- 10964256
+  1234
+
+     237 000515151
+     TerminalID: 62833072
+     1234
+
+  -------------  portal  --------------------
+
+000818181 - estel@123#
+000515151 - estel@123#
+
+
+ ***************************     Local 224  http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/ **********************
+
+
+///////////////////////////////////////// Machant  /////////////////////////////////////////////////////////////////////////
+
+Merchant     237 100001012
+Mpin :-       1234
+
+
+
+////////////////////////////////////////////////////////    SUBSCRIBER /////////////////////////////////////////////////////////////////
+
+
+********************   LOCAL   *******224********     http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/   ************************
+
+ Subscriber :- 741741741
+ mpin 1234
+
+
+ Subscriber :- 000271510
+ mpin 1234
+
+ ******************** PUBLIC    *****114**********  http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+Subscriber :- 741741741
+mpin 1234
+
+Subscriber 000271511
+Mpin 1234
+
+Subscriber 000271512
+Mpin 1234
+
+************************************ Cash Out  *******************************************************************************
+
+
+------------------ Generate and Send A withdrawal Code ----- same Branch -------
+
+5. Cash out Withdrawal Branch(generate And Send A withdrawal Code To The Subscriber):
+
+
+  put Subscriber number 000271510 Then receive Code in response conf code
+
+
+----------------- USE  A  withdrawal Code --- Different Branch ------2nd Button----------
+
+
+6. Cash out Different Branch(Use A Withdrawal Code Supplied):
+
+
+
+   Now you login Portal 237000271511 (subscriber) - then you cash out Diffrent branch (000271510)
+
+   Now  You app used cash out 237000271511 , Then you receive Code , amount
+
+
+************************************ Receive Money *******************************************************************************
+
+send money 237000271501 to generate same amount(amount - fees) same confcode same mobile nu...then Receive 237000271502 login
+
+************************************ PREPAID BILL.. // PREPAID ELECTRICITY..*******************************************************************************
+
+224 OR 114 crendential
+
+Meter Numer.... 014266582700
+YNEL Number     Y2017031800001
+
+
+************************************Cash To Cash Send Money (CASH TO CASH Send Money )*******************************************************************************
+
+88888888888
+99999999999
+*******************************************************************************************************************
+
+
+************************************ BILL PAY.. // .*******************************************************************************
+
+114
+Select ENEO
+select Customer ID:- 201341698
+
+
+   OR
+
+
+MINESEC
+customer ID: CE0103GF030000053
+invoice number :CE0103GF030000053FS
+
+
+************************************Cash To Marchant*******************************************************************************
+114
+Select ENEO
+
+************************************ REPRINT.*******************************************************************************
+
+Put any transaction id..same Login ya Diffrent Login
+
+************************************ pic Sign Pic .*******************************************************************************
+
+114 crendential --------------put number---- 000271510
+
+************************************ Other Account  .*******************************************************************************
+224 Portal Login
+
+///////////////  portal   Login   000271009  pass estel@123#  >  Other Account Put  000271018  ////
+
+114
+
+app login  000271501 ---  put 000271503
+
+put         Or 000271511 -- 000271510
+
+
+************************************ Print Receipt *******************************************************************************
+
+ You Pay Cash to Marchnat / Deposit   >  Genearate  Transactiuon ID , Transaction Code >
+
+************************************ print Bill *******************************************************************************
+
+  114 Server
+
+  9295061
+
+  237000271501
+
+ first you bill PAy You find Transaction Id , agent Code
+
+ You Put Transaction ID (9295061), agent Code(Customer Number 237000271501)
+
+********************* Transaction Approval ***********************************************************************************************
+
+You Transfer Subsscriber Number
+
+
+
+First You Transaction  Difference
+Agent  Code Then You Transaction Range Bottm
+
+remt send amount=102001
+cashout amount=100001
+cashin amount=100001
+remt amount=1000011
+remt recvamount=100001  (- fees  = 100001)(when you send money you must be fees+100001)
+cashtom amount=100001
+cashout amount Agent=100001
+
+
+
+1....You Login App agent Code 1 ...237000271011
+2..  2nd Agnet Code Login Cash in 3rd agnet Code(237000741741741 subscriber )
+3....Then You Approve First Agnet Code
+
+
+
+********************* Transaction Cancel ***********************************************************************************************
+1..Cash To MArchant / Depostite
+2.Bill Pay
+
+6655500
+splas
+**************************************** Agnet identity ************************************************************************
+Agent Identity
+237 931349121
+
+****************************************************************************************************************
+
+
+************************** franchise ************** Send Money same country  Agnet identity ************************************************************************
+Agent Identity
+sender mobile no:-   237 931349121
+Destination mobile no: 999017890
+
+****************************************************************************************************************
+************************** franchise ************** Send Money different country  Agnet identity ************************************************************************
+
+gabon 99901789
+
+******************************* franchise  Cash In *********************************************************************************
+Same   City -- 237000271014
+
+Different   City  (Different city)237000271015
+
+*****************************franchise*********** Receive Money  Agnet identity ************************************************************************
+Agent Identity
+Destination mobile no: 237 999017890
+
+****************************************************************************************************************
+
+*****************************franchise*********** resend  ************************************************************************
+
+ first you transaction  > Cash in..Cash Out................you get destionation mobile number  22222222222
+
+Now you
+2222222222222
+same transaction type
+
+
+
+*************************
+
+*********************************************** Imoney Deposit  224  ********************************************************************
+
+224 Server // 114
+
+1....Imoney Deposit
+237000219001
+
+
+2...Imoney Withdraval
+237000219001
+
+OR
+000219001
+
+
+3....Imoney cancel
+put refernce number > first You do transaction cash to cash > imoney > find reference number
+
+Then You put Reference number
+
+
+*******************************************************************************************************************
+
+
+
+************************ Order transfer *******************************************************************************************
+
+select Super Agent 0000000001
+
+
+
+
+************************ Order transfer Approval*******************************************************************************************
+
+First You login 0000000001 this
+
+then Approved (first you do order transfer then Approver 0000000001 super Agent )

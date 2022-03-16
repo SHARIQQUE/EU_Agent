@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <include
+        android:id="@+id/tool_bar_reports"
+        layout="@layout/toolbar_custom"
+        android:elevation="1dp" />
+
+    <Button
+        android:id="@+id/transactionDetaislReport"
+        android:textColor="#fff"
+        android:layout_width="294dp"
+        android:layout_weight=".4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/transactionDetaislReport"
+        android:background="@drawable/roundcorner"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/commissionReport"
+        android:textColor="#fff"
+        android:layout_width="294dp"
+        android:layout_weight=".4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/commissionReport"
+        android:background="@drawable/roundcorner"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/agentBankReport"
+        android:textColor="#fff"
+        android:layout_width="294dp"
+        android:layout_weight=".4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/agentBankReport"
+        android:background="@drawable/roundcorner"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

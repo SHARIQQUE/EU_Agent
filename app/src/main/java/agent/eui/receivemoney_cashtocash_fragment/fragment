@@ -1,0 +1,63 @@
+
+
+
+Explain Fragment Life Cycle.
+When activity is moved to stopped state, then what will happen to the life cycle of a fragment which is in that activity?
+Is Fragment Life Cycle dependent on Activity Life Cycle?
+How to call context in Fragment.
+
+Android getting application context in Fragments
+If your activity class extends Activity, you can get application context using getApplicatoinContext(). But this method won’t be available when your Activity extends from Fragment.
+When your activity extends Fragment, use getActivity () to get the context of the activity.
+
+
+Explain the parameters of onCreateView().
+android.app.Fragment vs android.support.v4.app.Fragment.
+
+How many ways to call Fragment.
+
+How to go Activity To Fragment  OR /  Fragment to Fragment
+
+1.... getActivity().getSupportFragmentManager().beginTransaction().addToBackStack(null).replace(R.id.frameLayout_cashtocash, new FragmentSecond()).commit();
+2....
+
+        FragmentSecond secondFragment= new FragmentSecond();
+
+        FragmentManager fragManager = getSupportFragmentManager();
+        FragmentTransaction fraTransaction = fragManager.beginTransaction();
+        fraTransaction.replace(R.id.frameLayout_cashtocash_receivemoney, secondFragment);  // This action will remove Fragment one and add Fragment two.
+        fraTransaction.addToBackStack(null);           // Add fragment one in back stack. So it will not be destroyed. Press back menu can pop it up from the stack.
+        fraTransaction.commit();
+
+
+
+What is FragmentManager Class?.
+A FragmentManager manages Fragments, FragmentManager class handles transactions between fragments.
+FragmentManager class which is used to create transactions for adding, removing or replacing fragments.
+
+What is FragmentTransaction Class?.
+fragmentTransaction gives us methods to add, replace, or remove fragments in Android. It gives us an interface for interacting with fragments.
+
+
+
+What is the meaning of addToBackStack(null)
+The method, addToBackOfStack(String name), adds this transaction to the back stack.
+By calling addToBackStack(), the replace transaction is saved to the back stack so the user can reverse the transaction and bring back the previous fragment
+
+
+Difference between Activity vs FragmentActivity.
+How to handle the backPress in Fragment?
+How to Persist data between configurations changes?
+What is Headless Fragment?
+How to begin the transaction.
+
+
+Difference in adding and replacing a Fragment.
+why used fragment and activity , when used fragment
+
+/////////////
+
+https://www.google.com/search?q=mvp+android&tbm=isch&source=iu&ictx=1&fir=EYaakca_8Gm8wM%252CpITTAFhaskKcnM%252C_&vet=1&usg=AI4_-kS5CwBVwN4Ot6rW-VpE9dtLsTPFxw&sa=X&ved=2ahUKEwjMqKeV8I3iAhU07XMBHZaEC5UQ_h0wG3oECAsQBA#imgrc=EntHjHu7-z_UcM:&vet=1
+Ques:- asyntask internal  working
+ans:- context Thread,
+////////////////

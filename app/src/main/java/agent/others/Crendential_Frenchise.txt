@@ -1,0 +1,182 @@
+
+********************************************   FRENCHISE ******************************************************************
+
+//////////////////////////// ////////////////////////////    PORTAL ADMIN  LOCAL     ////////////////////////////////////////////////////////////////
+
+EU new Agent
+---------------------------------------Admin---------------------
+
+http://192.168.0.224:9090/eadmin
+username::: Administrator
+pass:: abcd1234#
+
+---------------------------------------Portal--------------------------------
+
+http://192.168.0.224:9090/microbank/
+
+Agent:-          237 000271099
+password:-       estel@123#
+
+
+******************** PUBLIC  114  PORTAL ADMIN  Public ***************  http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+---------------------------------------Admin--------------------------------
+http://195.24.207.114:3005/eadmin/
+username::: Administrator
+pass:: abcd1234#
+
+---------------------------------------Portal--------------------------------
+http://195.24.207.114:3005/microbank/
+
+
+
+******************** Local Estel   224   Franchise Login ***************  http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/ ****************************
+
+Cameroon
+
+Agent Code 1  :-    237000271099
+Terminal Id :-      58877510
+Mpin        :-      1234
+
+Agent Code 2  :-    237 000271098
+Terminal Id  :-     36736264
+Mpin        :-      1234
+
+
+******************** PUBLIC   114  Franchise Login ***************  http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+
+Agent 1       237 785785785
+terminal id   89535784
+Mpin :-       1234
+
+Agent Code 2 :	000271014
+Terminal ID :	72634561
+mpin:-          1234
+
+
+Agent Code 3 : 237000888555
+Terminal ID : 91361056
+mpin:-  1234
+
+
+ Gabon
+
+ Agent Code 1  :-  241 85296374
+ Terminal Id  :-   31233136
+ Mpin         :-   1234
+
+ Agent Code 2  :-  241 85274985
+ Terminal Id  :-  47602750
+ Mpin           :-  1234
+
+
+
+CASH OUT DIFFRENT BRACH ..You Cash Out .000271510 Portal Then You Transfer 785785785
+
+
+**************************************** Cash In ************************************************************************
+
+1. Cash In
+   741741741
+
+**************************************** Send Money ************************************************************************
+
+2. Send Money  Same Country
+    9718196849
+
+    Agent Identity
+    sender mobile no:-   237 931349121
+    Destination mobile no: 999017890
+
+
+3.  Send Money  Same Different Country
+    Gabon
+    99901789
+
+********************************************** Receive Money ******************************************************************
+
+4. Receive Money
+
+  You Send Money The Find transaction Code Amount  Mobile Number
+
+  Agent Identity
+  Destination mobile no: 237 999017890
+
+********************************************** Cash Out cashout ******************************************************************
+
+
+ 5. Cash out Withdrawal Branch(generate And Send A withdrawal Code To The Subscriber):
+   000271510 Then receive Code in response.
+
+
+ 6. Cash out Different Branch(Use A Withdrawal Code Supplied):
+
+   You must Login App (785785785)
+   Now you login Portal 237000271510 then  You cash out 785785785 , Then you receive Code , amount , mobile number
+
+
+**************************************** Agnet identity ************************************************************************
+Agent Identity
+237 931349121
+
+
+************************************ PREPAID BILL.. // PREPAID ELECTRICITY..*******************************************************************************
+
+224 OR 114 crendential
+
+Meter Numer.... 014266582700
+YNEL Number     Y2017031800001
+
+************************************ REPRINT.*******************************************************************************
+
+Put any transaction id..same Login ya Diffrent Login
+
+
+************************************ Print Receipt *******************************************************************************
+
+ You Pay Cash to Marchnat / Deposit   >  Genearate  Transactiuon ID , Transaction Code >
+
+************************************ print Bill *******************************************************************************
+
+  114 Server
+  9295061
+
+  237000271501
+
+ first you bill PAY You find Transaction Id , agent Code
+
+ You Put Transaction ID (9295061), agent Code(Customer Number 237000271501)
+
+
+
+************************************Cash To Marchant*******************************************************************************
+114
+Select ENEO
+*******************************************************************************************************************
+
+
+************************************ Bill pay*******************************************************************************
+Put Customer ID From backend
+201341720
+
+
+Put Invoice Number  ID From backend
+????(Or See Invoice Number when You put select Customer Id then display Invoce List )
+
+*******************************************************************************************************************
+
+************************************Cash To Cash Send Money *******************************************************************************
+
+88888888888
+99999999999
+*******************************************************************************************************************
+
+************************************Cash To Cash Send Money *******************************************************************************
+
+ 224 Server
+ search
+ Details :- P8M0310170024
+
+
+*******************************************************************************************************************

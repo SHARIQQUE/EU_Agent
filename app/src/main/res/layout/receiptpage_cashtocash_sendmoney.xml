@@ -1,0 +1,1503 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/review_SV_AccToCash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="251dp"
+                android:layout_height="122dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewPicture"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/picture_blank"
+                    android:gravity="center"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageViewSign"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/picture_blank"
+                    android:gravity="center"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/TransferBasisReviewAccToCash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/transferBasis_TxtView_Review_AccToCash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Recipient Country: "
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="@string/sendMoney_small"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="@string/cashToCash_cap"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+
+                    android:gravity="center"
+                    android:text="@string/senderDetail"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/edittext_bg"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/senderMobileNumber"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/senderMobileNumber_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/first_name"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/senderFirstName_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/name_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/name_sender_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/id_document_tye_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/id_document_tye_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/id_documnetnumber_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/idDocumentNumber_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:background="@android:color/transparent"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/id_documentDateofissue_cashtocash"
+                    android:textColor="#000"
+
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_documentDateofissue_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/id_documentCountryOfissue_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_documentCountryOfissue_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/id_document_placeofissue_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/id_documentPlaceOfIssue_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/gender_sendCash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/gender_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/profession"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/profession_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/resident"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/resident_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/country"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/senderCountry_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/City"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/senderCity_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/nationality"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/nationality_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/email"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/email_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/homePhonenumber_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/homePhoneno_sender_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:text="@string/address1"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/address_1_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:background="@android:color/transparent"
+                    android:textColor="#DC1605"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="@string/recipient_details_cashtocah"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/mobileNumber"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/recipient_mobileNo_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/first_name"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/recipient_firstname_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/name_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/recipient_name_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/email"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/recipient_email_textview"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:textColor="#DC1605"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="@string/test_question"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="Question"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/question_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/answer"
+
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/answer_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+
+                    android:textColor="#DC1605"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+            </LinearLayout>.
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".5"
+                    android:textColor="#000"
+
+                    android:gravity="center"
+                    android:text="@string/transfer_detail_cashtocash"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:background="@drawable/edittext_bg"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/reasonTransfer_title"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/reasonForTransfer_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/sending_currency_cashtocash"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sending_currency_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/amountCashIn"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/amount_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/fees"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/fees_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="vat"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/vat_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/other_taxes"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/other_taxe_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:text="@string/Tax_one"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:textColor="#DC1605"
+                        android:text="0"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:text="@string/Tax_Two"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:textColor="#DC1605"
+                        android:text="0"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:text="@string/Tax_Three"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:textColor="#DC1605"
+                        android:text="0"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:background="#F9EC2C"
+                    android:text="@string/totalamount_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/totalAmount_textview"
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight=".5"
+                    android:background="#F9EC2C"
+
+                    android:textColor="#DC1605"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+
+
+
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/destinationCountry_cashtocash"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/destinationCountry_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/destination_currency"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/destinationCurrency_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/rate_cashtocash"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/rate_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:textSize="16sp" />
+            </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight=".5"
+                    android:background="#95C5E4"
+                    android:layout_height="30dp"
+
+                    android:text="@string/amount_to_pay"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/amountTopay_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:layout_marginRight="5dp"
+                    android:background="#95C5E4"
+                    android:textColor="#DC1605"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#0074BC"
+                    android:layout_height="1dp"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+
+
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                    <EditText
+                        android:id="@+id/mpin_AutoCompleteTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/prompt_mPin"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberPassword"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="16dp" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+
+
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+               >
+
+
+                <Button
+                    android:id="@+id/submitButton"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/roundcorner"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/submit"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

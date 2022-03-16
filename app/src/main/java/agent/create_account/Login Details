@@ -1,0 +1,197 @@
+
+
+************************************ PUBLIC  114  BA  ***********************************************
+
+http://195.24.207.114:3005/RESTfulWebServiceEU/json/estel/ ****************************
+
+
+agent 2       237000271502
+terminal id   26819810
+Mpin :-       1234       // portal    Estel@123#
+
+
+// ######## Not used (its demo )
+
+agent 1      237000271503
+terminal id   81797727
+Mpin :-       1234          // portal    Estel@123#
+
+agent 4       237 000271509
+terminal id   31959458
+Mpin :-       1234
+
+agent 5       237 000271011     // Different  Branch  Branch
+terminal id   03495426
+Mpin :-       1234
+
+**************************** drc ********************************************
+Agent Code:- 243 887877872
+Terminal :-  53777406
+Mpin     :-  2020
+************************************  Local  224   BA  *********************************************
+
+http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/
+
+
+Agent:-  237000271502
+Terminal - 88653599
+
+Agent:-          237 000271011
+Terminal Id : -  7518373483883139
+Mpin :-           1234
+
+Agent Code   : - 237000271501
+Terminal Id : - 81121475
+MPin :- 1234
+
+
+Agnet Agent Code :	237000271009
+Terminal ID :	13634087
+MPIN           1234
+
+
+********************************** Functionalities Details 114 *************************************
+
+1:    -------------------------------   Account Balance -------------------------------
+      ############  Account Balance  ############:- put 1234
+      ############  Commission Balance ############ :- put 1234
+
+2:    -------------------------------   Cash In        -------------------------------
+      ############  Eu Mobile Money (Old Cash In) ############:- Put 000271511(Subscriber Number)                          [ Amount Transfer in Subscriber Number]
+      ############  Cash For Transfer(Old Imoney Deposit) ############:- Put:- 000219001(I money Account Banking Agent )   [ Amount Transfer in 000219001 I money Account]
+
+3:    -------------------------------   Cash out         -------------------------------
+      ############ Eu Mobile Money (Old Cash Out )############ :- Put 000271511(Subscriber Number) then put Confcode From Backend [ Amount Credit in Own BA Account - Amount Transfer Subscriber To BA Account]
+      ############  Cash For Transfer (Old Imoney Withdrawal)############:-Put:- 000219001(I money Account Banking Agent )        [ Amount Credit in Own BA Account - Amount Transfer I money Account To BA Account ]
+
+4:    -------------------------------   Send Money  -------------------------------
+      Send Money ----(Cash To Mobile)---
+      ############ Same Country      ############:- put Sender And Destination mobile No (unregister Mobile no )    [ Amount Transfer in Another BA Account (when BA recive Amount)]
+      ############ Different Country ############:- put Sender And Destination mobile No (unregister Mobile no )     [ Amount Transfer in Another BA Account (when BA recive Amount)]
+
+      Send Money ---(Cash To Cash)---
+      ############ Same Country      ############:- put Sender And Destination mobile No (unregister Mobile no )     [ Amount Transfer in Another BA Account (when BA recive Amount)]
+      ############ Different Country ############:- put Sender And Destination mobile No (unregister Mobile no )     [ Amount Transfer in Another BA Account (when BA recive Amount)]
+
+5:   -------------------------------   Receive Money  -------------------------------
+     Receive Money ----(Cash To Mobile)---
+     ############ Mobile To Cash(Old Receive Money)    ############:- Put Same Destination Mobile number - put Amount(-fees)  put Confcode [ First You do Transaction Send Money Same Country [ Amount receive ]]
+
+     Receive Money ----(Cash To Cash)---
+     ############ EXPRESS UNION INTERNATIONAL   ############:- Put EUI Reference Number      [ First You go Send Money > CashToCash > Different Country Then you receive EUI Number]
+     ############ ERA / IMONEY     ############:-  Put Reference Number/Name/Mobile number   [ First You go Send Money > CashToCash > Same Country Then you receive reference Number]
+
+
+6:   -------------------------------   Purchases Bill Payments   -------------------------------
+
+    ############ Bill pay   ############:-
+
+    Take Invoice Number/Customer Id  From Backend Team
+
+    ############ Cash To Merchant   ############:-
+
+
+7:   -------------------------------  Tuition Fees   -------------------------------
+
+    ############ Find A School############
+
+    Put KUMBA - ATANGANA (take from backend )
+
+    ############Enter School Code############
+
+      CE41357H04   (take from backend )
+
+    ############ Enter Student Registration Number  ############
+
+    102188510549  (take from backend )
+
+8:    ------------------------------- Prepaid Electricity Charge     -------------------------------
+      Enter Meter No(take from backend )
+      Enter ENEL No (take from backend )
+
+9:    ------------------------------- ACCOUNT    -------------------------------
+
+10:    ############ CREATE ACCOUNT    ############:-
+
+       Create Subscriber number
+
+       ############ UPDATE  ACCOUNTTE ACCOUNT    ############:-
+
+        Update  Subscriber number
+
+       ############ View Account    ############:-
+
+         View  Subscriber number
+
+
+     ---------------------------------------------------------------------------------------------
+
+
+    What is a merchant
+    What is a Banking Agnet
+    what is a subscriber
+    What is a frenchise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

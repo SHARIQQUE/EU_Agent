@@ -1,0 +1,3357 @@
+<resources>
+
+    <string name="versionNotAllowed">Cette version n est pas autorisee a s executer. Veuillez mettre a jour Apk depuis Google Play Store</string>
+    <string name="app_version">Version de l application</string>
+
+    <string name="app_name">EUMM CAISSIER</string>
+    <string name="pleaseLoginFrenchise">Veuillez vous connecter avec votre compte Franchisé </string>
+    <string name="franchise">Franchise</string>
+    <string name="ok2">D accord</string>
+
+    <string name="applicationForFranchise">APPLICATION POUR AGENT</string>
+    <string name="searchNew">RECHERCHER</string> rechercher
+    <string name="customerNamesecondpage">Nom du Client</string>
+    <string name="hintMobileNo_imoneyDeposit">saisir le numero moblie du destinataire %1$s chiffres</string>
+    <string name="hintMobileNo_imoneyWithdrawal">Saisir le numero moblie du client %1$s chiffres</string>
+    <string name="date_imoney">Date:</string>Selectionnez le Sexe
+    <string name="place_imoney">Place:</string>
+    <string name="idNumberimoney">Numéro de la pièce:</string>
+    <string name="nextButton">DEMANDER LES FONDS</string>
+
+    <string name="applicationForAgent">APPLICATION POUR AGENT</string>
+    <string name="dateMontYyear">DD-MM-YYYY</string>
+    <string name="loginAnotherAccount_txtView">Login with another account</string>
+    <string name="timeisClose">La demande  na pas été validée, veuillez confirmer auprès du client et cliquer sur le bouton SUIVANT ...  </string>
+    <string name="timeOutComplete">Délai d’attente dépassé</string>
+
+    <string name="status_stop"><font fgcolor='#FB0B03'>Arreter</font></string> <!--gray-->
+    <string name="cityReceipt">Ville:</string>
+    <string name="countryRecepit">Pays:</string>
+
+    <string name="countryNameRecepit">Country Name:</string>
+    <string name="cityReceiptNew">Ville</string>
+    <string name="agentCode">Code de l\'Agent</string>
+    <string name="countryRecepitNew">Pays:</string>
+    <string name="idProofNumberReceeiveReviewNew">Numéro de la Piéce:</string>
+    <string name="nextCashout">SUIVANT</string>
+
+    <string name="agentCodeNew">Code de l Agent" </string>
+
+    <string name="destinationCountryRecepit">Pays du Beneficiaire:</string>
+    <string name="agentCountryRecepit">Pays de l Agent:</string>
+    <string name="rovideReviewDetailsnew">Vérifiez les informations</string>
+
+    <string name="transactionReceiptReceveMoney">ENVOI D ARGENT</string>
+
+
+
+    <string name="agentCountryRecepitNew">Pays de l Agent:</string>
+
+    <string name="pleaseselectcountryofreceipnt">Please select country of recipient</string>
+
+    <string name="City">Ville </string>
+
+    <string name="Country">Pays</string>
+
+    <string name="pleaseEnterCity">City </string>
+    <string name="prepaidElectricitySucessReceipt">Hi, Your Prepaid Electricity Transaction has been successfully completed. </string>
+    <string name="pleaseEnterCountry">Please enter country</string>
+
+
+    <string name="pleaseEnterMpinLogin">Code Secret 04 chiffres</string>
+    <string name="moneyTransferDisplayActivity">TRANSFERT D’ARGENT</string>
+
+    <string name="loyality_card_number">Numéro de fidélité</string>
+    <string name="pleaseesterAccountNoOrLayalityCardNumber">Veuillez saisir un numéro de compte ou un numéro de fidélité</string>
+
+    <string name="pleaseCheckInternet">Veuillez verifier votre connexion Internet </string>
+    <string name="pleaseTryAgainLater">Veuillez réessayer plus tard </string>
+    <string name="pleaseEnterAgentLogin">Veuillez saisir le bon compte  </string>
+
+    <string name="retry">Réessayer</string>
+    <string name="expresunionmobile">EU-MOBILE MONEY</string>
+    <string name="agent">EUMM CAISSIER</string>
+
+    <string name="euMobileMoney">EU MOBILE MONEY CAISSIER</string>
+    <string name="languageChoose">Choisir la Langue</string>
+
+
+    <string name="prompt_InvoiceNo_code">Numero de Facture</string>
+    <string name="prompt_CustomerId">Numéro de contrat du Client</string>
+    <string name="English">	Anglais</string>
+    <string name="billerCountryTitleReview">Pays de Marchand:</string>
+    <string name="billerCountryTitleReviewNew">Nom du Marchand</string>
+
+    <string name="invoiceNoTitleReview">Numero de Facture:</string>
+    <string name="billerPreferenceTitleReview">Reference a utiliser:</string>
+    <string name="billerNameTitleReview">Nom du marchand :</string>
+    <string name="payerNoTitleReview">Compte à débiter:</string>
+    <string name="French">Français</string>
+    <string name="getUnpaidBills">Rechercher les paiements à régler</string>
+    <string name="billpaySuccessFinal">Votre ransaction de paiement de facture %1$s a été effectué avec succès pour le Marchand %2$s,
+        Montant: %3$s, trxn id: %4$s</string>
+    <string name="stopBillPay">Arrêter le paiement</string>
+    <string name="languagechoosemenu">Choisir la Langue du Menu</string>
+    <string name="proceedLogin">SE CONNECTER</string>
+    <string name="pleaseEnterMpin">Saisir le code secret à 4 chiffres </string>
+    <string name="mobileNumber">Numero Mobile</string>
+    <string name="mobileNumberReviewPage">Numero Mobile:</string>
+    <string name="subscriberMobileNumberWithdrawal">Numéro mobile du client</string>
+    <string name="PleaseSelectTransactionType">Type d operation</string>
+
+
+    <string name="mobileNumberNew">Code Caisse ou Numéro Mobile</string>
+
+
+    <string name="billerNameMarchant">Nom du marchand </string>
+
+    <string name="billerNameMarchantNew">Etablissement bénéficiaire</string>
+
+
+    <string name="telePhoneNoNumberReviewPage">Numéro de Téléphone:</string>
+    <string name="accountType">Type de compte:</string>
+    <string name="SubscriberMobilePhoneCashIn">Numéro mobile du client</string>
+
+    <string name="title_login">Se connecter</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="resendSmsConfcode">Renvoyez le Sms</string>
+    <string name="unblockSubscriber">Débloquez le compte du client</string>
+    <string name="unblockSubscriberTitle">DEBLOCAGE DU COMPTE</string>
+
+    <string name="resendSms">RENVOI DU SMS</string>
+    <string name="reSetMpin">MODIFIER LE MPIN</string>
+
+
+    <string name="termialId">Id du Terminal</string>
+    <string name="PleaseWaitVerifyingOTP">Veuillez patienter la verification de l OTP</string>
+    <string name="PleaseEnterDetailstoProceedFurther">Veuillez saisir les informations pour continuer</string>
+    <string name="PleaseEnter6DigitOTPCode">Veuillez saisir le 6 chiffres du code OTP</string>
+    <string name="OTPVerification">Verification de l OTP</string>
+
+    <string name="OTPVerificationOtpPage">Veuillez patienter, vous allez recevoir par SMS un Code de Sécurité de 06 chiffres</string>
+    <string name="prompt_otpNew">Code de Sécurité 06 chiffres</string>
+    <string name="enterOtpNew">Code de Sécurité 06 chiffres</string>
+    <string name="otp_new">Code de Sécurité 06 chiffres</string>
+    <string name="resend_otp_new"><u>Renvoi du Code de Sécurité</u></string>
+    <string name="confirmNew">VERIFIER</string>
+
+    <string name="confirm">Confirmer</string>
+    <string name="PleaseEnterTheCodeRecievedSMS">Veuillez saisir le  code reçu par SMS pour acheter la transaction</string>
+    <string name="resend_otp"><u>Renvoi de l OTP</u></string>
+    <string name="sendingotp">Patientez le renvoi de l OTP est encours</string>
+    <string name="signature">Signature</string>
+
+    <string name="prompt_mPin">Saisir le code secret à 4 chiffres </string>
+    <string name="mpinAccountBalance">Code secret MPIN à 4 chiffres</string>
+    <string name="secareteCodeMpin">Saisir le code secret MPIN à 4 chiffres</string>
+    <string name="save">ENREGISTER </string>
+    <string name="human_signature">Dessiner signature</string>
+    <string name="signature_draw_successfully">Tirage au sort avec succès retourner </string>
+
+    <string name="OTPVerificationNewHeding">Verification du Code de Securite</string>
+    <string name="mpinBalance">Code Secret - 04 chiffres</string>
+    <string name="otp_generating">Génération d otp</string>
+
+    <string name="OTPVerificationNew">Verification du Code de Securite</string>
+    <string name="cashOutTitle">RETRAIT EN COMPTE</string>
+    <string name="termialId_new">Code de Securite</string>
+
+
+    <string name="pleaseEnterConfCodeOTP"> Veuillez saisir l OTP</string>
+    <string name="pleaseEnterConfCodeOTP_new">Code de Validation reçu par SMS par le client</string>
+    <string name="otp_resend">Code de Validation reçu par SMS par le client</string>
+
+
+    <string-array name="BranchArray">
+        <item>Veuillez selectionner l agence</item>
+        <item>Agence de domiciliation</item>
+        <item>Autres agences</item>
+
+    </string-array>
+    <string-array name="BranchCodeArray">
+        <item>Veuillez selectionner l agence</item>
+        <item>SB</item>
+        <item>NSB</item>
+    </string-array>
+
+
+    <string name="pleaseEnterNewmpin">Saisir le nouveau code secret à 4 chiffres </string>
+    <string name="pleaseEnterConfirmPpin">Confirmez le nouveau code secret à 4 chiffres</string>
+    <string name="prompt_todate">Date du </string>
+
+    <string name="dateOfBirth">Date de naissance DD-MM-YYYY</string>
+    <string name="pleaseEnterDateOfBirth">Saisir la Date de naissance</string>
+    <string name="genderType">Sexe</string>
+
+    <string name="genderSelect">Sexe</string>
+
+    <string name="SubscriberLanguage">Langue</string>
+    <string name="SubscriberLanguageNew">Langue préférée du client</string>
+    <string name="nationalityNew">Nationalité</string>
+
+
+    <string name="addressNew">Adresse</string>
+
+    <string name="idproofIssueDate">Date d émission de la piéce</string>
+    <string name="pleaseEnteridproofIssueDate">Saisir la date d émission de la piéce</string>
+    <string name="pleaseEnteridproofNo">Saisir le numéro de la piéce</string>
+    <string name="idproofName">Id name</string>
+
+    <string name="idproofReviewPage">Numéro de la piéce :</string>
+    <string name="prompt_fromdate">Date au</string>
+    <string name="PleaseProvideMiniStatementDetails">Veuillez fournir les détails du Mini rélevé</string>
+    <string name="miniReport">EDITIONS</string>
+    <string name="dateOfIssueIdProofReviewPage">Date d émission de la piéce :</string>
+
+
+    <string name="placeOfIssueIdProofReviewPage">Lieu d émission de la piéce :</string>
+    <string name="transactionReferenceNoProofReviewPage">Réference du numéro de Transaction :</string>
+    <string name="AccountNumberReviewPage">Numéro de Compte :</string>
+    <string name="titleReviewPage">Titre:</string>
+    <string name="mobileBankingServiceReviewPage"> Service Mobile Banking :</string>
+
+
+    <string name="billpay_title">Paiement de Facture </string>
+    <string name="pleaseselectaccounttobedebited">Selectionnez le compte à débiter </string>
+    <string name="pleaseenterpaymentcode">Saisir le code de paiement </string>
+    <string name="pleaseenterreciepientno">Saisir le Nuéro du bénéficiaire</string>
+    <string name="pleaseenterbillno">Saisir le numéro de la facture</string>
+    <string name="pleaseselectnameofbiller">Selectionnez le nom du Marchand</string>
+    <string name="pleaseselectcountryofbiller">Selectionnez le pays du Marchand</string>
+    <string name="accounttocashsuccess_final">Votre envoi d argent a été effectué avec succès. les frais déduits sont de  </string>
+    <string name="pleaseselectaccount">Selectionnez le compte</string>
+    <string name="pleaseselectonebill">Selectionnez au moins 01 facture à payer</string>
+    <string name="pleaseentercorrectdates">Selectionnez une bonne date. la période ne doit pas être au delà de 07 jour"</string>
+    <string name="pleaseenterfromdate">Entrez la date de Début</string>
+    <string name="pleaseentertodate">Entrez la date de Fin</string>
+    <string name="pleaseselectoperationtype">Selectionnez le type d Operation</string>
+    <string name="searchanother">Recherchez à nouveau</string>
+    <string name="norecordfound">Aucuns résultats trouvés</string>
+    <string name="total">Total Commission:</string>
+    <string name="splash_update_information_display">Une mise à jour de l application EU Mobile Money est disponible sur Google Play.</string>
+    <string name="splash_update_installnow">Installez Maintenant</string>
+    <string name="splash_update_installLater">Plus tard</string>
+    <string name="prompt_OTP">OTP</string>
+    <string name="splash_update_stop_information_display">Cette version n est plus autorisee.Veuillez contacter le support pour plus d information.</string>
+    <string name="Tariff_capital">TRIFAIRE</string>
+    <string name="accountmanagemnet_new"> AUTRES SERVICES </string>
+
+    <string name="next">Suivant</string>
+    <string name="home">Retour</string>
+    <string name="createAccountRevie">CREATION DE COMPTE</string>
+    <string name="createAccountReviewButton">CREER LE COMPTE</string>
+
+    <string name="click">Cliquer</string>
+    <string name="idProofNumberReviewNew">Numéro de la Piéce</string>
+
+    <string name="previous">Précédent</string>
+
+    <string name="billpayDepostPTOP">VERSSEMENT POUR UN MARCHAND</string>
+    <string name="sendMoneyReprint">DUPLICATA D UN TRANSFERT</string>
+
+    <string name="cashToMarchant"> VERSSEMENT POUR UN MARCHAND</string>
+    <string name="cashMarchant_new"> ACHATS ET COLLECTE DE FONDS</string>
+    <string name="cashToMarchant_reprint"> DUPLICATA COLLECTE DE FONDS</string>
+    <string name="cashToMarchant_reprint_receipt"> DUPLICATA COLLECTE DE FONDS</string>
+
+
+    <string name="cashToMarchantMenu">COLLECTE DE FONDS</string>
+
+    <string name="prepaidBillMenu">RECHARGE ELECTRICITE PREPAYEE </string>
+
+
+
+    <string name="billPayReceipt"> PAIEMENT DE FACTURE</string>
+
+    <string name="cashToMarchantReversal"> ANNULATION VERSSEMENT POUR UN MARCHAND</string>
+
+    <string name="revarSalFees">Frais d Annulation :</string>
+
+    <string name="billPaybill">Paiement de Facture</string>
+    <string name="sameBranch">Agence de domiciliation</string>
+
+
+    <string name="withdrawalCodeGenerate">UTILISER LE CODE DE RETRAIT GENERE PAR LE CLIENT </string>  <!-- Different  Branch-->
+    <string name="withdrawalInitiateOTP">GENERER UN CODE DE RETRAIT ET L ENVOYER AU CLIENT</string>
+    <string name="generateWithdrawalCode">GENERER UN CODE DE RETRAIT</string>
+
+    <string name="generateAndSendWithdwaralCode">GENERER UN CODE DE RETRAIT ET L ENVOYER</string>
+    <string name="useaWthdrawalCodeSupplied">UTILISER LE CODE DE RETRAIT GENERE</string>
+
+
+    <string name="billPay">PAIEMENT DE FACTURE</string>
+    <string name="billPayDeposit">VERSSEMENT POUR UN MARCHAND</string>
+    <string name="prepaidElectricity">RECHARGE ELECTRICITE PREPAYEE</string>
+    <string name="billPrint">Facture</string>
+    <string name="billPaynew">PAIEMENTS</string>
+    <string name="accountmanagemetNew">AUTRES SERVICES</string>
+
+    <string name="billPaymentMenu">PAIEMENTS ET COLLECTE</string>
+    <string name="billPaymentMenuDisplay">PAIEMENTS, ACHATS ET COLLECTES DE FONDS</string>
+
+
+    <string name="prepaidBill">Facture Prépayée</string>
+    <string name="SelectAllBills">Selectionnez toutes les factures</string>
+    <string name="diffrentBranch">Autres agences</string>
+    <string name="cashOutsameBranch">Retrait dans l Agence de Domiciliation</string>
+    <string name="cashOutDiffrentBranch">Retrait dans une Autre Agence</string>
+    <string name="ok">Ok</string>
+    <string name="state">Saisir la Ville</string>
+    <string name="prepaidBillReceipt">RECHARGE ELECTRICITE PREPAYEE</string>
+
+    <string name="region">Saisir la Region</string>
+    <string name="receiptPrint">RECUS ET BONS</string>
+
+    <string name="accountBalancePage">Saisir votre code secret pour consulter votre Solde</string>
+    <string name="balanceNew">SOLDE CAISSE</string>
+
+
+
+    <string name="withdrawal">RETRAIT</string>
+    <string name="cashOutwithdrawal">RETRAIT D ESPECE</string>
+    <string name="cashWithdrawal">Retrait D éspèce</string>
+
+    <string name="withdrawalInitiate">RETRAIT </string>
+
+    <string name="idProofPlace">Lieu de délivrance de la piéce</string>
+    <string name="birthpalce">Lieu de naissance</string>
+    <string name="agentType">Saisir le type d Agent</string>
+    <string name="secondMobileNumber">Second numéro Mobile - 09 chiffres</string>
+    <string name="fixPhoneno">Numéro Fixe du client - 09 chiffres</string>
+    <string name="profession">Profession</string>
+    <string name="gender">Sexe</string>
+    <string name="customerid">Saisir le numéro de contrat du client</string>
+    <string name="pleaseidProofDueDate">Date expiration pièce JJ-MM-AAA</string>
+
+
+    <string name="nextNew">PAYER LA FACTURE</string>
+
+    <string name="cashToCashNational">TRANSFERT NATIONAL</string>
+    <string name="cashToCashInternational">TRANSFERT INTERNATIONAL</string>
+
+
+
+    <string name="customerSecondMobielNo">Numéro Mobile du client</string>
+    <string name="customerfixMobielNo">Numéro Fixe du client</string>
+
+    <string name="customerPhoneNumber">Numéro Mobile du client</string>
+
+    <string name="nationality">Nationalité</string>
+    <string name="plancode">Saisir le code du Plan</string>
+    <string name="residenceArea">Residence</string>
+    <string name="residenceAreaNew">Lieu de Résidence</string>
+
+    <string name="PleaseEnterIdProofPlace">Lieu de délivrance de la piéce</string>
+    <string name="PleaseEnterbirthpalce">Lieu de naissance</string>
+    <string name="PleaseEnteragentType">Sélectionnez le type d Agent</string>
+    <string name="PleaseEntersecondMobileNumber">Second numéro Mobile</string>
+    <string name="PleaseEnterfixPhoneno">Saisir le numéro Fixe du client</string>
+    <string name="PleaseEnterprofession">Sélectionnez la profession</string>
+    <string name="PleaseEntergender">Sélectionnez le genre</string>
+    <string name="PleaseEntercustomerid">Saisir le numéro de contrat</string>
+    <string name="PleaseEnternationality">Nationalité</string>
+    <string name="PleaseEnterplancode">Saisir le code du Plan</string>
+    <string name="PleaseEnterresidenceArea">Residence</string>
+
+    <string name="payforSelf">Pay For Self</string>
+
+
+    <string name="Email">Email</string>
+    <string name="emailidCustomer">Email du Client</string>
+
+    <string name="pleaseEnterEmail"> Saisir l email </string>
+    <string name="pleaseEnterState">Sélectionnez la ville</string>
+    <string name="tariffResponseSuccess">Welcome to Express Union Mobile. Dear Customer, Applicable fee on %1$s is %2$s XAF.</string>
+
+    <string name="tariffResponseSuccessNew">Bienvenue a EU Mobile Money. cher client, les frais de %1$s sont de %2$s XAF.</string>
+
+
+
+    <string name="balanceSuccessResponse">Bienvenue a EU Mobile Money. Votre solde est de %1$s  XAF.Vous etes mobiles ns aussi</string>
+
+    <string name="selectAccountProfile">Profile du Compte</string>
+
+    <string name="casInSuccessResponse">Hi, Your Account to Cash Transaction has been succeessfully completed. Conf Code is</string>
+
+    <string name="PleaseEnterBeneficiaryNo">Saisir le Numéro Mobile du bénéficiaire </string>
+    <string name="PleaseEnterBeneficiarDestination">Saisir le Numéro Mobile du bénéficiaire </string>
+    <string name="PleaseEnterDestinationMobilNo">Saisir le Numéro Mobile du bénéficiaire</string>
+    <string name="balancecheck">CONSULTATION DE SOLDE</string>
+    <string name="balance">SOLDE</string>
+    <string name="pleaseselectbankaccount">Sélectionnez votre compte </string>
+    <string name="accountbalance">Votre solde pour le compte   </string>
+    <string name="is"> est </string>
+    <string name="close_button">Fermer</string>
+    <string name="purpose">purpose</string>
+    <string name="PleaseProvideBalanceCheckDetails">Saisir votre code secret (MPIN) pour consulter votre Solde</string>
+    <string name="PleaseProvideOtherAccountDetails">Saisir les informations sur le compte</string>
+    <string name="PleaseProvideCashInCheckDetails">Saisir les informations de l Approvisionnement</string>
+    <string name="PleaseProvideRePrintDetails">Saisir les informations du duplicata</string>
+    <string name="PleaseProvidePrintDetails">Saisir les informations du bon</string>
+    <string name="PleaseProvidetransactionApprovalDetails">Saisir les informations sur la transaction à approuver</string>
+    <string name="PleaseProvidetransactionCancelDetails">Saisir les informations sur la transaction à annuler</string>
+
+    <string name="billhavebeenpaid">Les factures sélectionnées suivantes ont été payé</string>
+    <string name="home_button">Retour</string>
+    <string name="changeMpin">CHANGER LE MPIN</string>
+    <string name="PleaseEnterDetails">Saisir les informations</string>
+    <string name="currentmpin">Ancien Mpin</string>
+    <string name="newmpin">Nouveau Mpin</string>
+    <string name="confirmmpin">Confirmez le nouveau Mpin</string>
+    <string name="changempin">Changez le Mpin</string>
+    <string name="pinmismatch">Le nouveau MPIN et le MPIN confirmé ne sont pas identique</string>
+    <string name="newoldsameerror">L Ancien MPIN et le nouveau MPIN ne doivent pas être semblable</string>
+    <string name="microbanking">Microbanking</string>
+    <string name="restartapp">Redémarrez votre application </string>
+    <string name="PleaseProvidePermissions"> Veuillez autoriser </string>
+    <string name="YouHavebeenSuccessfullyActivatedPleaseLogin">Vous avez été activé avec succès, veuillez vous connecter</string>
+    <string name="pleaseSelectCountry">Sélectionnez le pays </string>
+    <string name="proceed">Exécuter</string>
+    <string name="proceedNew">"PAYER LA FACTURE</string>
+
+    <string name="proceedBillPay">"RECHERCHER LA FACTURE</string>
+
+    <string name="proceedInvoiceConformationpage">PAYER LA FACTURE</string>
+
+    <string name="pleaseEnterTermilaId">Saisir le terminal ID compris entre 8 et 16  </string>
+    <string name="incorrectmobilenumber">Veuillez saisir un valide  </string>
+    <string name="pleaseProvidePayerDetailsHeading">Veuillez fournir les informations sur le compte à débiter</string>
+    <string name="pleaseProvidePayerDetailsHeadingBillPay">Veuillez fournir les informations</string>
+    <string name="btn_changelanguage">Change Language </string>
+    <string name="signout1">Pour se déconnecter, Veuillez cliquer ici </string>
+    <string name="pleaseselectbiller">Selectionnez le nom du Marchand|</string>
+    <string name="pleaseEnterBillerName">Selectionnez le nom du Marchand</string>
+    <string name="pleaseSelectBillerName">Selectionnez le nom du Marchand</string>
+
+    <string name="pleaseEnterDestination">Saisir le Beneficiaire</string>
+    <string name="pleaseEnterAmount">Saisir le montant</string>
+    <string name="pleaseEnterBenificName">Saisir le numéro mobile du Bénéficiaire</string>
+    <string name="pleaseEnterDestinationMobilePhoneNumber">Numéro Mobile du bénéficiaire</string>
+
+    <string name="pleaseEnterDestinationName">Saisir le nom du Bénéficiaire</string>
+    <string name="pleaseEnterDestinationPhoneNo">Numéro Mobile du bénéficiaire</string>
+    <string name="billNumberNew">Réference Paiement:</string>
+
+    <string name="loggingin">Veuillez patienter, Connexion encours </string>
+    <string name="activating">Veuillez patienter, Activation encours</string>
+    <string name="errorlogininternet">Connexion Internet temporairement intérompu, Veuillez  vous reconnecter </string>
+    <string name="gettingdetails">Veuillez patienter, identification de</string>
+    <string name="pleaseLoginAgent">Veuillez vous connecter avec le compte </string>
+    <string name="activationsuccess">Activation effectuée avec succès, Connection en cours</string>
+    <string name="pleasewait">Veuillez patienter</string>
+    <string name="otpSentSuccessfully">OTP envoyé avec succès</string>
+    <string name="prompt_payementReference_acc_no">Reference/code de Paiement</string>
+    <string name="PleaseProvidePayerDetails">Veuillez fournir les informations</string>
+    <string name="BillerName">Nom du Marchand</string>
+    <string name="SelectBillerName">Nom du Marchand</string>
+    <string name="billerName">Nom du Marchand</string>
+    <string name="BillNumberCode">Numéro de la Facture</string>
+    <string name="RecipientNo">Numéro du bénéficiaire</string>
+    <string name="PaymentReferenceCode">Reference/code de Paiement</string>
+    <string name="BillerCountry">PAYS DU MARCHAND</string>
+    <string name="PleaseReviewDetils">Vérifiez les informations</string>
+    <string name="accountBalance">CONSULTATION DE SOLDE</string>
+    <string name="accountBalanceNew">SOLDE CAISSE</string>
+    <string name="RecipientCountry">Pays du bénéficiaire</string>
+    <string name="cashInNewDisplaypage">DEPOT EN COMPTE</string>
+    <string name="sendingCurrency_cashtocash">Monnaie d envoi</string>
+
+    <string name="sendingCurrency_cashtocash_new">Devise de depart</string>
+    <string name="sendingCurrency_cashtocash_destination">Device de destination</string>
+    <string name="sendingCurrency_cashtocash_destination_new">Devise de destination</string>
+
+
+    <!-- public 114 -->
+    <string name="url">http://192.168.0.224:9090/RESTfulWebServiceEU/json/ftpservice/</string>
+
+
+
+    <!-- Local estel  224 -->
+
+    <!--
+        <string name="url">http://192.168.0.224:9090/RESTfulWebServiceEU/json/estel/</string>
+    -->
+
+
+    <!--  Production  08 08 2017   -->
+    <!--
+    <string name="url">http://expressunion.cm:5051/RESTfulWebServiceEU/json/estel/</string>
+    -->
+
+
+
+
+
+    <string name="PayerAccount">Compte à débiter</string>
+    <string name="PleaseSelectBills">Selectionnez la facture</string>
+    <string name="BillPreference">Réference à utiliser</string>
+    <string name="CustomerId">Numéro de contrat du client</string>
+    <string name="SelectedBills">Selectionnez la facture</string>
+    <string name="createAccount">CREATION DE COMPTE</string>
+    <string name="cashIn">APPROVISIONNEMENT</string>
+    <string name="cashIn_reprint">DUPLICATA DEPOT EN COMPTE</string>
+    <string name="cashOut_reprint">DUPLICATA RETRAIT EN COMPTE</string>
+
+    <string name="cashInNew">DEPOT</string>
+
+
+    <string name="reprint_cashToMarchant">DUPLICATA D UN VERSSEMENT POUR UN MARCHAND</string>
+
+    <string name="sendMoney_reprint">DUPLICATA D UN TRANSFERT</string>
+    <string name="receiveMoney_reprint">DUPLICATA D UN PAIEMENT DE TRANSFERT</string>
+
+    <string name="cashOut">RETRAIT DANS LE COMPTE</string>
+    <string name="cashOutNew">RETRAIT EN COMPTE</string>
+    <string name="moneyTransferNew">TRANSFERT D ARGENT</string>
+
+    <string name="createAgent">CREATION DE COMPTE </string>
+    <string name="createAgent_reprint">DUPLICATA D UNE CREATION DE COMPTE</string>
+    <string name="PleaseSelectPayersAccount"> Selectionnez le compte à débiter</string>
+    <string name="PaySingleBill">Payez une seul facture</string>
+    <string name="or">ou</string>
+    <string name="customerIdTitleReviewPage">Numéro de contrat du client:</string>
+    <string name="CustomerIdReceipt">Numero de contrat du client:</string>
+    <string name="cashOutreprint_new">DUPLICATA RETRAIT EN COMPTE</string>
+    <string name="plzTryAgainLater">Please try Again later</string>
+
+    <string name="PleaseSelectInvoice">Selectionnez la facture à payer</string>
+    <string name="PleaseSelectPaymentMode">Selectionnez le mode de paiemenet</string>
+    <string name="PleaseEnterCustomerId">Saisir le numéro de contrat du client</string>
+    <string name="PleaseWaitGettingtheUnpaidInvoices">Veuillez patienter, récupération des factures</string>
+    <string name="PleaseProvideBillerDetails">Veuillez fournir les informations sur le Marchand</string>
+    <string name="PleaseProvideCompanyDetails">Veuillez fournir les informations sur le Marchand</string>
+    <string name="PleaseProvideDestinationDetails">Veuillez fournir les informations sur le Bénéficiaire</string>
+    <string name="prompt_billNo_code">Numéro de facture/Code</string>
+    <string name="remmittance">TRANSFERT D ARGENT</string>
+    <string name="remmittanceMenu">TRANSFERT D ARGENT</string>
+    <string name="remmitance_receive_money_menu"> PAIEMENT D UN TRANSFERT</string>
+    <string name="remmitance_Receive_money_toName_detail">Veuillez fournir les informations sur le nom du bénéficiaire </string>
+    <string name="remmitance_Receive_money_toMobile_detail">Veuillez fournir les informations sur le transfert à payer </string>
+    <string name="remmitance_receive_money_toname">Paiement d un transfert à un nom </string>
+    <string name="remmitance_receive_money_tomobie">Payez un Transfert mobile </string>
+    <string name="payaMobileTransfer">PAIEMENT D UN TRANSFERT</string>
+    <string name="diffrentCountry">VERS UN AUTRE PAYS</string>
+
+
+    <string name="remmitance_send_money_toName_detail">Veuillez fournir les informations sur le nom de l expediteur </string>
+    <string name="remmitance_send_money_toMobile_detail">Veuillez fournir les informations sur le nom de l expediteur </string>
+    <string name="remmitance_send_money_menu"> ENVOI D’ARGENT</string>
+    <string name="sameCountry">DANS LE MEME PAYS</string>
+   <string name="moneyTransfer">TRANSFERT D’ARGENT</string>
+    <string name="moneyTransferMenu">TRANSFERT D’ARGENT</string>
+     <string name="accountManagmentToolbar">GESTION DE COMPTE</string>
+    <string name="remmitanceNew"> PAYER UN TRANSFERT</string>
+    <string name="enterTransactionNumber">Numéro de Transaction</string>
+
+    <string name="accountmanagemnet"> Gestion de Compte </string>
+    <string name="remmitance_send_money_toname"> Envoi vers un Nom </string>
+    <string name="prompt_amount">Saisir le montant</string>
+    <string name="pleaseEnterApprovalNumber">Saisir le numéro à appouver</string>
+    <string name="pleaseEnterTransactionNumber">Saisir le numéro de téléphone</string>
+    <string name="amountCashIn">Montant</string>
+    <string name="commentNonMandatory">Observation – Facultatif</string>
+    <string name="amountNew">Montant</string>
+    <string name="amountNew2">Montant:</string>
+    <string name="amountCashInReveiw">Montant</string>
+    <string name="pleaseEnterCancelNumber">Saisir le numéro à annuler</string>
+    <string name="pleaseEnterSerialId">Saisir le numéro à annuler</string>
+    <string name="transactionNumber">Numéro de Transaction</string>
+    <string name="customerMobileNumber">Numéro mobile du Client</string>
+    <string name="remmitance_send_money_tomobie">Envoi vers un Mobile </string>
+    <string name="eraMobile">CASH VERS MOBILE</string>
+    <string name="eraMobileToolbar">ERA MOBILE</string>
+
+    <string name="eraMobileNational">DANS LE MEME PAYS</string>
+    <string name="eraMobileInternational">ERA Mobile International</string>
+    <string name="PleasEenterMobileNumber">Saisir le numéro du bénéficiaire</string>
+    <string name="PleasEenterSourceNumber">Saisir le numéro de l expediteur</string>
+    <string name="cashToCash">Cash a Cash</string>
+    <string name="mobileAccount">Compte mobile</string>
+    <string name="cashToCashnew">CASH A CASH </string>
+
+    <string name="PleasEenterMobileNumberNew">Saisir le numéro de l expediteur</string>
+
+    <string name="cashToCashPrint">Cash a Cash Transfert National</string>
+
+
+    <string name="PleasEenterName">Saisir le nom du bénéficiaire</string>
+    <string name="prompt_recipient_mobile_no">Numéro du bénéficiaire</string>
+    <string name="hintMobileNoAcctoCash">Saisir %1$s chiffres du Numéro Mobile</string>
+    <string name="hintMobileDestination">Saisir %1$s chiffres du Numéro Mobile du bénéficiaire</string>
+    <string name="hinSourceNo">Saisir %1$s chiffres du Numéro Mobile de l expediteur</string>
+
+    <string name="hintSourceNumber">Saisir %1$s chiffres du Numéro Mobile de l expediteur</string>
+    <string name="hintEnterSendPhoneNumber"> Saisir %1$s chiffres du Numéro de l expediteur</string>
+    <string name="hintEnterSendMoneyToname"> Saisir %1$s chiffres du Numéro Mobile de l expediteur </string>
+    <string name="hintSendMoney">Saisir %1$s chiffres du Numéro Mobile de l expediteur</string>
+    <string name="hintSendMoneyPhoneNumber">Numéro Mobile de l expediteur %1$s chiffres </string>
+    <string name="hintSendMoneyPhoneNumberRecipient">Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="PleasEenterDestinationMobileNumber">Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="PleasEenterbenifiaryMobileNumber">Numéro du bénéficiaire %1$s chiffres </string>
+    <string name="hintPleaseEntreMobileNo">Numéro Mobile de l expediteur  </string>
+    <string name="digits"> chiffres </string>
+    <string name="hintReceipntNumberRecipient">Numéro Mobile du bénéficiaire</string>
+    <string name="PleasEenterSourceMobileNumber">Saisir le Numéro Mobile de l expediteur</string>
+    <string name="PleasEnterDestinationMobileNumber">Saisir le Numéro Mobile du bénéficiaire</string>
+    <string name="PleasEnterDestinationMobilePhoneNumber">Saisir le Numéro Mobile du bénéficiaire</string>
+    <string name="hintMarchantMobileNo"> Numéro Mobile du Marchant %1$s chiffres</string>
+    <string name="hintDestinationMobileNo"> Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="hintbeneficiaryMobileNumber"> Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="hintbeneficiaryMobileNo"> Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="SenderphoneNumber"> Saisir le Numéro  de l expediteur %1$s chiffres </string>
+
+    <string name="hintDestinationMobileNoNew">  Numéro Mobile du client %1$s chiffres</string>
+
+    <string name="hintMobileNoAcctoCashIn"> Saisir le Numéro Mobile  de l expediteur %1$s chiffres</string>
+
+
+    <string name="hintMobileCashIn"> Numéro Mobile  %1$s chiffres</string>
+    <string name="hintMobileCashIn_french"> Numéro Mobile  %1$s chiffres</string>
+    <string name="hintMobileNo">Saisir le Numéro Mobile  %1$s chiffres</string>
+    <string name="hintMobileNobillPay"> Saisir le Numéro Mobile  %1$s chiffres</string>
+    <string name="hintMobileNoAcctoCashOut"> Saisir le Numéro Mobile  de l expediteur %1$s chiffres</string>
+    <string name="hintSubscriberMobileNumber"> Saisir le Numéro Mobile  de l expediteur %1$s chiffres</string>
+    <string name="hintMobileNoResendSms"> Saisir le Numéro Mobile  de l expediteur %1$s chiffres</string>
+    <string name="hintCashOutSubscriberNo"> Numéro Mobile  %1$s chiffres</string>
+    <string name="hintCreateAccountNumberAcctoCash">Saisir le Numéro créé  %1$s chiffres</string>
+
+    <string name="hintCreateAccountNumber">Saisir le Numéro du client %1$s chiffres</string>
+    <string name="hintCreateAccountNumberNew_french">Saisir le Numéro du client %1$s chiffres</string>
+
+    <string name="hintCreateAccountNumber_french">Saisir le Numéro du client %1$s chiffres</string>
+
+    <string name="hintRecipientMobilePhone">Saisir le Numéro Mobile du bénéficiaire %1$s chiffres</string>
+    <string name="hintSecondMobileNumber">Saisir le second Numéro Mobile %1$s chiffres</string>
+    <string name="hintSecondMobileNumber_french">Saisir le second Numéro Mobile %1$s chiffres</string>
+    <string name="hintSecondFixedMobileNumber">Saisir le Numéro Fix %1$s chiffres</string>
+    <string name="hintSecondFixedMobileNumber_french">Saisir le Numéro Fix %1$s chiffres</string>
+    <string name="hintCustomerSecondMobileNumber">Saisir le second Numéro du client %1$s chiffres</string>
+    <string name="hintCustomerFixedMobileNumber">Saisir le Numéro du client %1$s chiffres</string>
+    <string name="hintCustomerPhoneNumber">Numéro du client %1$s chiffres</string>
+    <string name="pleaseselectcountry">Veuillez selectionner le pays</string>
+    <string name="payeraccount">Veuillez selectionner le compte à débiter</string>
+    <string name="transferdetails">Saisir les informations sur la transaction</string>
+
+    <string name="pleaseentername">Saisir le nom du bénéficiaire</string>
+
+
+    <string name="PleaseEnterNamePrintBillPay">Saisir le Numéro Mobile  de l expediteur</string>
+
+    <string name="debit_amount">Montant debite :</string>
+    <string name="credit_amount">Montant credite :</string>
+    <string name="closing_amount">Solde final:</string>
+    <string name="transactionIdNew">Numero de Transaction:</string>
+
+
+    <string name="sourceNumberSelectCountry">Saisir le numéro de l expediteur</string>
+    <string name="transactiontype">Type de transaction:</string>
+
+
+    <string name="enterMerchantMobileNo">Saisir le numéro mobile du Marchand</string>
+    <string name="enterDestinationMobileNo">Saisir le numéro mobile du bénéficiaire</string>
+    <string name="pleaseSelectCountryDestination">Veuillez selectionner le pays du bénéficiaire</string>
+    <string name="pleaseenterBillerId">Saisir le numéro du Marchand</string>
+    <string name="pleasereviewdetail">Vérifiez les informations</string>
+    <string name="transfernow">Transferer</string>
+    <string name="submit">Exécuter</string>
+    <string name="submitOtpPage">VERIFIER</string>
+    <string name="receipentaccounttocredit">Numéro du bénéficiaire à créditer</string>
+    <string name="pleaseselecttransfertag">Selectionnez le motif </string>
+    <string name="pleaseselectbankofreceipnt">Selectionnez l établissement financier</string>
+    <string name="pleaseselectaccountofreceipnt">Selectionnez le compte du bénéficiaire</string>
+    <string name="pleaseenter">Veuillez saisir  </string>
+    <string name="PaymentTransferButton">Paiement de Transfert</string>
+
+    <string name="subscriberMobileNumber">Numéro Mobile du client:</string>
+
+    <string name="subscriberMobileNumberReceiveMoney">Numéro Mobile du client</string>
+
+
+    <string name="subscriberPhoneNumber">Numéro Mobile du client</string>
+
+    <string name="recipientCountryTitleReview">Pays du bénéficiaire:</string>
+
+    <string name="sourceNumberTitleReview">Numéro de l expediteur:</string>
+    <string name="senderMobileNumber">Numéro Mobile de l expediteur:</string>
+    <string name="senderPhoneNumber">Numéro de l expediteur:</string>
+    <string name="idproofType">Type de piéce</string>
+
+
+    <string name="subscriberNameReview">Nom du Client:</string>
+    <string name="languageReview">Langue:</string>
+    <string name="countryCashIn">Pays</string>
+    <string name="cashiInDetailNew">Vérifiez les informations</string>
+    <string name="cashiInDetailConfirmationPage">Veuillez fournir les informations</string>
+
+    <string name="meterNumberTitleReview">Meter Number:</string>
+    <string name="billerIdTitleReview">Biller Id:</string>
+    <string name="recipientTransferBasisTitleReview">Transfer Basis:</string>
+    <string name="recipientNameNumberTitleReview">Nom / numéro du destinataire:</string>
+    <string name="recipientNameTitleReview">Recipient Name:</string>
+    <string name="amountTitleReview">Montant:</string>
+    <string name="feeTitleReview">Frais:</string>
+    <string name="device">Dévice:</string>
+
+    <string name="transactionCodeTitleReview">Code de la Transaction:</string>
+    <string name="billPayTitleReview">Bill Id:</string>
+    <string name="dueDateTitleReview">Due Date:</string>
+    <string name="TransferBasisReviewAccToCash">Transfer Basis:</string>
+    <string name="RecipientNameNumber">Nom/Numéro du Bénéficiaire</string>
+    <string name="PayerAccountTypeReviewAccToCash">Type de Compte à débiter:</string>
+    <string name="shoudNotAllowZero">Il ne doit pas commence par le chiffre  zero(0)</string>
+
+    <string name="pleaseEnterCommisonForTrasfer">fournir des détails des Commissions du transfert</string>
+    <string name="commisionForTransfer_capital">TRANSFERT DE LA COMMISSION</string>
+    <string name="successCommissionForTransfer">Votre commission pour la transaction de transfert a été collectée avec succès</string>
+
+
+
+    <!-- Accounts 9 Aug 2018  create account New -->
+
+    <string name="accounts_capital">COMPTES</string>
+    <string name="updateAccount_capital">METTRE A JOUR LE COMPTE</string>
+    <string name="otherAccount_capital">AUTRES COMPTES</string>
+    <string name="viewAccountProfile_capital">AFFICHER LE PROFILE DU COMPTE</string>
+    <string name="customerPicture">Photo du Client</string>
+    <string name="takeCamera">Prendre une Photo</string>
+    <string name="idDocumentPicture">IMAGE DE LA PIECE D IDENTITE</string>
+    <string name="front">Devant</string>
+    <string name="back">Derriere</string>
+    <string name="selectUploadPicCamera">Sélectionnez une photo prise depuis la camera</string>
+    <string name="selectUploadPicCameraIddocumnetFront">Sélectionnez l avant d une photo prise depuis la camera </string>
+    <string name="selectUploadPicCameraIddocumnetBack">Sélectionnez l arriere d une photo prise depuis la camera</string>
+    <string name="billCreateAccount">Facture</string>
+    <string name="orCreateAcoount">OU</string>
+    <string name="electricityBillWater">Facture d Electricité</string>
+    <string name="drawHomeLocationPlan">Dessiner un plan de localisation</string>
+    <string name="number">Numéro</string>
+    <string name="pleaseProvideDetails">Fournir les informations</string>
+    <string name="personalDetails">Informations Personelles</string>
+    <string name="customerIdNumber">Numéro du Client</string>
+    <string name="genderDetails">Sex</string>
+    <string name="selectLanguage">Language choisie</string>
+    <string name="fixedNumber">No Fixe</string>
+
+    <string name="secondMobileNo">Second numéro mobile </string>
+    <string name="addressDetails">Adresse</string>
+    <string name="attachedBranchName">Nom de l agence de domiciliation</string>
+    <string name="idDetails">Informations sur la piéce</string>
+    <string name="idproof_name">Nom de la piéce</string>
+    <string name="idProofissue_place">Lieu d émission de la piéce</string>
+    <string name="idproof_type">Type de piéce</string>
+    <string name="showReceipt">Montrer le recu</string>
+    <string name="selfPortrait">Portrait </string>
+    <string name="idfront">Avant de la piéce</string>
+    <string name="idback">Arriere de la piéce</string>
+    <string name="billlocation">Localisation</string>
+    <string name="clear">Effacer</string>
+    <string name="skip">Ignorer</string>
+    <string name="followingFieldCanBeUpdated">Le champ suivant peut être mis à jour</string>
+    <string name="viewProfile">Afficher le Profile</string>
+    <string name="sign">Signature</string>
+
+    <string name="profilePicture">Profile de la photo</string>
+    <string name="basicDetails">Informations de Base</string>
+    <string name="viewDetail"> Afficher les informations</string>
+
+    <string name="cid">Numéro</string>
+    <string name="accountprofile">Profile du Compte</string>
+    <string name="id">Piéce</string>
+    <string name="idnd">No de la piéce</string>
+    <string name="idExp">Date d expiration de la piéce</string>
+
+    <string name="homelocation">Plan de localisation</string>
+
+    <string name="fromDate"> DU </string>
+    <string name="personalPicture"> Photo Personelle</string>
+    <string name="uploading">Charger</string>
+    <string name="subscriberForm">Formulaire de Subscription</string>
+    <string name="selectUploadPicCameraMpin">Sélectionnez une photo prise depuis la camera</string>
+    <string name="countryListIsNull">Le code du pays est vide</string>
+    <string name="viewDetails">Afficher les informations</string>
+    <string name="detailsForm">Fiche détaillée</string>
+    <string name="agentProfile">Profile de l Agent </string>
+    <string name="customerId">Numéro </string>
+    <string name="language">Langue</string>
+    <string name="idproofexpirayDate">Date d expiration de la piéce</string>
+    <string name="idproofIssueDatepage">Date d emission de la piéce</string>
+    <string name="billHomelocation">Facture / Plan de localisation</string>
+    <string name="invalidemailaddress">Adresse e-mail invalide</string>
+
+    <string name="enterValidEmailId">Veuillez entrer un identifiant email valide</string>
+
+    <string name="requestForTheOpening"> DEMANDE DOUVERTURE DE COMPTE DE PROVISION EU MOBILE MONEY</string>
+    <string name="Holderhereinafterreferred"> Titulaire ci-apres designe le client:</string>
+    <string name="firstName_kyc">Prenom (S):</string>
+    <string name="dateAndPlaceOfbirth">Date et lieu de naissance :</string>
+    <string name="nationality_kyc">Nationalité :</string>
+    <string name="identificationDocumnet">N°Piece d identification(CNI, passeport ou carte de sejour valide):</string>
+    <string name="profession_kyc">Profession:</string>
+    <string name="phoneNumberKyc">Profession:</string>
+    <string name="email_kyc">Email:</string>
+    <string name="addresskyc">Adresse:</string>
+    <string name="villageTownArea">Ville/Quartier de résidence :</string>
+    <string name="request_cancel_by_customer">Demande annulée par le client </string>
+
+    <string name="detail_kyc">Par la signature de la presente demande d ouverture de compte de provision EU Mobile Money, je  certifie  l exactitude  et  la  sincerite  des  informations  personnelles  mentionnees ci  dessus et je declare avoir pris connaissance des conditions d utilisation EU Mobile Money figurant au verseau. La presente demande d ouverture de compte de provision, les conditions d utilisation du service EU mobile Money constituent le contrat d abonnement au service de transfert d argent par telephone portable dont je declare avoir reçu un exemplaire. Je  reconnais avoir pris  connaissance des documents contractuel :</string>
+    <string name="Attachments">PIECES JOINTES :</string>
+    <string name="accountopeningbranch">AGENCE DOUVERTURE </string>
+    <string name="language_kyc">LANGUE CHOISIE : </string>
+    <string name="mobileMoneyAccountNo">Compte de provision EU MOBILE MONEY No: </string>
+    <string name="textview_termCondition">Terme et condition Cliquez ici  </string>
+    <string name="selectSubscriberSign">Sélectionnez le signature du client</string>
+    <string name="waitingForSubscriberAuthenticate">Une demande de validation a été envoyée au client, veuillez patienter ...</string>
+    <string name="selectValidExpiredDate">Veuillez sélectionner la date d expiration valide</string>
+    <string name="electricityOrHomeLocation">Sélectionner la facture d electricite OU Dessiner le plan de localisation</string>
+    <string name="validIdProof">Veuillez sélectionner une date démission de la piéce d identité valide</string>
+    <string name="noUpdateAnyField">Aucune mise à jour d un champ ou d une image</string>
+    <string name="updateSuccessFully">Mise à jour effectuée avec succès</string>
+    <string name="authorizelayout">AUTORISER</string>
+    <string name="otplayout">CODE DE SECURITE</string>
+    <string name="choice">Choix</string>
+    <string name="branchName">Nom de la filiale</string>
+    <string name="profileName">Nom de profil</string>
+    <string name="checkbox_termendcondition">J accepte les termes et conditions</string>
+
+
+    <string name="checkbox_first_details"> En cochant cette case, je confirme avoir vérifié la photo du client present au guichet</string>
+    <string name="checkbox_second_details"> En cochant cette case, je confirme avoir vérifié le nom et le numéro de reference de pièce d’identification présenté par le client</string>
+    <string name="comment_details">Observation - Entrez les informations sur la pièce d’identification présentée par le client (type, numéro, date et lieu de délivrance)</string>
+    <string name="id_document">Document d identité </string>
+    <string name="id_Proof_Number">Numéro de la Piéce</string>
+    <string name="pleaseSelectCheckbox_first">sélectionnez confirmer la case à cocher photo</string>
+    <string name="pleaseSelectCheckbox_second">sélectionner confirmer case à cocher nom numéro de référence</string>
+
+
+    <string name="pemissionAskDennyClick">S il vous plait aller à l application de configuration mobile et autoriser toutes les autorisations
+</string>
+
+
+
+    <string-array name="otp_authorize">
+        <item>Otp</item>
+        <item>Autoriser</item>
+
+    </string-array>
+
+    <string-array name="otp_authorize_french">
+        <item>Otp</item>
+        <item>Autoriser</item>
+
+    </string-array>
+
+
+    <string-array name="signaturehuman_gallery">
+        <item>dessiner la signature</item>
+        <item>De la galerie</item>
+
+    </string-array>
+
+    <string-array name="signaturehuman_gallery_french">
+        <item>Dessiner la signature</item>
+        <item>De la galerie</item>
+
+    </string-array>
+
+
+    <string-array name="cityType">
+        <item>City</item>
+        <item>MUMBAI</item>
+        <item>KOLKATTA</item>
+        <item>BENGLORE</item>
+        <item>HARYANA</item>
+
+    </string-array>
+    <string-array name="cityCodeArray">
+        <item>City</item>
+
+        <item>DLH</item>
+        <item>MUM</item>
+        <item>KOL</item>
+        <item>BEN</item>
+        <item>HR</item>
+
+    </string-array>
+
+    <string-array name="languageSelectDetails">
+        <item>La langue</item>
+        <item>Français</item>
+        <item>Anglais</item>
+
+    </string-array>
+
+    <string-array name="languageSelectDetails_french">
+        <item>La langue</item>
+        <item>Français</item>
+        <item>Anglais</item>
+
+    </string-array>
+    <string-array name="languageSelectCode">
+        <item>Language</item>
+        <item>FR</item>
+        <item>EN</item>
+
+    </string-array>
+
+    <string-array name="attachBranchNameType">
+        <item>Attached Branch Name</item>
+        <item>BANKING AGENT </item>
+        <item>SUBSCRIBER</item>
+        <item>MERCHANT</item>
+
+    </string-array>
+
+    <string-array name="attachBranchNameCode">
+        <item>Attached Branch Name Code</item>
+
+        <item>BA</item>
+        <item>SUB</item>
+        <item>MER</item>
+        <item>FR</item>
+
+    </string-array>
+
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+
+
+    <string-array name="genderDetailsType_french">
+        <item>Sexe Détails</item>
+        <item>Homme</item>
+        <item>Femme</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="genderDetailsType_tuitionfees">
+        <item>Sexe de l eleve</item>
+        <item>Homme</item>
+        <item>Femme</item>
+
+    </string-array>
+
+    <string-array name="genderDetailsCode_tuitionfees">
+        <item>Gender</item>
+        <item>M</item>
+        <item>F</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="genderDetailsType">
+        <item>Sexe Détails</item>
+        <item>Mâle</item>
+        <item>Femelle</item>
+
+    </string-array>
+
+    <string-array name="genderDetailsCode">
+        <item>Gender Details</item>
+        <item>M</item>
+        <item>F</item>
+
+    </string-array>
+
+    <string-array name="languageType">
+        <item>Language</item>
+        <item>French</item>
+        <item>English</item>
+
+    </string-array>
+    <string-array name="languageTypeCode">
+        <item>Language</item>
+        <item>FR</item>
+        <item>EN</item>
+
+    </string-array>
+
+
+    <!-- layout to image -->
+
+
+    <string name="holder_hereinafter_referred_to_as_the_subscriber">Holder hereinafter referred to as the \'\'subscriber\'</string>
+    <string name="express">EXPRESS</string>
+    <string name="request_for_the_opening_of_an_eu_mobile_money_account">DEMANDE DOUVERTURE DE COMPTE DE PROVISION EU MOBILE MONEY</string>
+
+    <string name="envoi_rapide_d_argent_epargne_et_investissement">ENVOI RAPIDE D’ARGENT / EPARGNE ET INVESTISSEMENT</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">Prenom</string>
+    <string name="date_and_place_of_birth">Date and Place of birth</string>
+    <string name="identification_document_number_nic_passport_or_residence_permit">Identification document number (NIC, passport or residence permit)</string>
+    <string name="issued_on">issued on</string>
+    <string name="at">At</string>
+    <string name="by">By</string>
+    <string name="profession_2">Profession</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="marital_status">Marital status</string>
+    <string name="address_2">Address</string>
+    <string name="town_area">Town / area</string>
+    <string name="place_called">Place called</string>
+    <string name="account_opening_branch">Account opening branch</string>
+    <string name="eu_mobile_money_account_no">EU MOBILE MONEY account No</string>
+    <string name="language_2">Language</string>
+    <string name="attachments">Attachments</string>
+    <string name="branch_manager">Branch manager</string>
+    <string name="signature_holder_s_signature">signature</string>
+
+    <!--        End Create Account         -->
+
+
+
+
+
+
+
+
+    <!-- Balance New Spinner-->
+
+    <string-array name="balanceCheckType">
+
+        <item>Sélectionnez Solde du compte </item>
+        <item>Solde principal</item>
+        <item>Solde de la commission</item>
+
+    </string-array>
+
+
+    <string-array name="balanceCheckCode">
+        <item>Select Account Balance</item>
+
+        <item>BAL</item>
+        <item>wallettype</item>
+    </string-array>
+
+
+
+    <!-- Balance End Spinner-->
+
+
+    <string name="TariffTitleReview">Montant du Tarifaire:</string>
+    <string name="feesTitleReview">Frais:</string>
+    <string name="feesNew">Frais</string>
+
+    <string name="mobileNumberofBenificairay">Mobile no of benef:</string>
+    <string name="feesCashIn">Frais</string>
+    <string name="fees">Frais</string>
+    <string name="feesReceipt">Frais:</string>
+
+    <string name="billNumberMerchant">Référence paiement:</string>
+
+    <string name="customerName">Nom du Client:</string>
+    <string name="customerNameReceiveMoney">Nom du Client</string>
+
+
+    /////////////////////////////////////////////////// Receipt
+    //////////////////////////////////////////////
+
+    <string name="dateRecepit">DATE:</string>
+    <string name="timeReceipt">HEURE:</string>
+    <string name="transactionIdReceipt">No TRANSACTION:</string>
+    <string name="cashiInReceipt">APPROVISIONNEMENT</string>
+    <string name="transType">Type de Trans</string>
+    <string name="sendMoneyReceipt">ENVOI D’ARGENT</string>
+    <string name="eraMobileInternationalReceipt">ERA MOBILE INTERNATIONAL</string>
+    <string name="transactionIdReceiptNew">No TXN:</string>
+
+
+    <string name="cashiInReceiptpage">Depot en compte</string>
+
+    <string name="sendMoneyNewPage">ENVOI D’ARGENT</string>
+
+
+    <string name="sendMoney">ENVOI D ARGENT</string>
+
+    <string name="sendMoneyNewCashtoCash">ENVOI D’ARGENT</string>
+    <string name="sendMoneyNewReceipt">ENVOYER</string>
+    <string name="SelectCurrencyNew">Selectionnez la devise</string>
+
+    <string name="destinationReports">Beneficiair:</string>
+
+    <string name="sendMoneytomobileReceipt">ENVOI D ARGENT</string>
+
+    <string name="erMobileNationalReceipt">ENVOI D ARGENT</string>
+    <string name="sendMoneyNew">ENVOYER</string>
+
+
+    <string name="selectReceiptType">Selectionnez le type de bénéficiaire</string>
+
+    <string name="receiveMoneyReceipt">PAIEMENT DE TRANSFERT</string>
+    <string name="receiveMoneyToMobileReceipt">PAIEMENT DE TRANSFERT</string>
+
+
+    <string name="PleaseProvideBillerDetails_BillPay">Saisir les informations sur la facture</string>
+
+    <string name="receiveMoney">PAIEMENT DE TRANSFERT</string>
+    <string name="Others">Mettre à jour la liste</string>
+
+    <string name="receiveMoneyButtonNew">DECHARGER LE TRANSFERT</string>
+    <string name="languageSelect">Langue</string>
+
+    <string name="receiveMoneyToNameReceipt">PAIEMENT DE TRANSFERT A UN NOM</string>
+    <string name="receiveMoneyeReceipt">DUPLICATA D UN PAIEMENT DE TRANSFERT</string>
+    <string name="oldtitle_reprint">ANC No TRANSACTION:</string>
+
+    <string name="oldtxnidtitle">ANC No TRANSACTION:</string>
+    <string name="oldTransaction_new">ANC No TRANSACTION:</string>
+
+
+    <string name="oldTransactionReprint">ANC No TRANSACTION:</string>
+    <string name="oldTransactionReceipt">ANC No TRANSACTION:</string>
+    <string name="transactionNotAllowed">Transaction non autorisée :</string>
+
+
+    <string name="subscriberNumberReceipt">Numero du Client:</string>
+    <string name="senderNameReceipt">Nom du Client:</string>
+    <string name="senderNumberReceipt">Numero de l Expediteur:</string>
+    <string name="destinationNumberReceipt">Numero du Beneficiaire:</string>
+    <string name="destinationNameReceipt">Nom du Beneficiaire:</string>
+    <string name="destinationNameCashToCash">Nom du Beneficiaire</string>
+
+    <string name="subscribeNameReceipt">Nom du Client:</string>
+    <string name="subscribeNamecashoutWithdrwalCode">Nom du Client</string>
+
+
+    <string name="attachBranceNameReceipt">Agence de Rattachement:</string>
+    <string name="VilleReceipt">Ville:</string>
+    <string name="PaysRecepit">Pays:</string>
+    <string name="PaysNameRecepit">Pays:</string>
+    <string name="agentBranceNameReceipt">Nom de l Agent:</string>
+    <string name="VilleReceiptNew">Ville</string>
+
+
+    <string name="billNumberReceipt">Numero de facture:</string>
+    <string name="labelNameReceipt">Etablissement/Type de paiement:</string>
+    <string name="marchantNameReceipt">Nom du Marchand:</string>
+    <string name="oldTrasns">ANC No TRANSACTION:</string>
+
+    <string name="OlDTransactionId">No TRANSACTION VERSSEMENT POUR UN MARCHAND:</string>
+
+    <string name="enelNumberReceipt">Numéro ENEL:</string>
+    <string name="meterIDReceipt">Numéro du compteur:</string>
+    <string name="enoTransactionNumberReceipt">Numéro de Transaction ENEO:</string>
+    <string name="customerNameReceipt">Nom du Client:</string>
+    <string name="EnergyConst">Constante d Energie:</string>
+    <string name="energeticValue">Valeur Energetique:</string>
+
+
+    <string name="name">Prenom:</string>
+    <string name="nameBillpay">Type paiement:</string>
+    <string name="customerNumbReceipt">Numéro du Client:</string>
+    <string name="cashToMarchantpage">ACHATS ET COLLECTE DE FONDS</string>
+
+    <string name="printReceiptPage">PRINT RECEIPT:</string>
+
+
+    <!-- Reports 13 nov-->
+
+
+    <string name="transactionDetaislReport">Historique des opérations</string>
+    <string name="commissionReport">Commissions</string>
+    <string name="agentBankReport">Historique des comptes </string>
+    <string name="currentdaycommission">commission du jour </string>
+    <string name="commissionPeriod">Commission sur une periode </string>
+
+    <string name="pleaseEnterConfCodeOTP_New">Code de Validation reçu par SMS par le client</string>
+
+    <!-- Report End -->
+    <string name="destinationPaysRecepit">Pays du Bénéficiaire:</string>
+    <string name="currencyTypeReceipt">Type de devise:</string>
+
+    <string name="amountRecepit">Montant:</string>
+    <string name="feesRecepit">Frais:</string>
+    <string name="agentNameRecepit">Nom de l Agent:</string>
+    <string name="agentPaysRecepit">Pays de l Agent:</string>
+    <string name="agentSignRecepit">Signature Agent:</string>
+    <string name="subscriberSignRecepit">Signature Client:</string>
+    <string name="presentNameRecepit"> Agence:</string>
+    <string name="totalamountRecepit">Montant Total:</string>
+    <string name="totalamountReceive">Montant Total percu:</string>
+    <string name="presentNameRecepitNew">Nom de l Agent</string>
+    <string name="presentAgentnameNew">Nom de l Agent:</string>
+
+    <string name="totalamountRecepit_SendMoneyToMobile">Montant Total:</string>
+    <string name="transactionCodeRecepit">Code de la Transaction:</string>
+    <string name="printButton">IMPRIMER</string>
+
+
+    <string name="pendingOrder">Demande de fonds en Instance</string>
+    <string name="orderFrom">Demande fait Par</string>
+    <string name="orderFromName">Nom du Demandeur</string>
+    <string name="orderto">Demander à</string>
+    <string name="ordertoName">Nom du Destinataire</string>
+    <string name="transId">Numéro de Transaction</string>
+
+
+    <string name="cashOutSameBranchReceipt">RETRAIT AGENCE DE DOMICILIATION</string>
+    <string name="cashOutDiffrentBranchReceipt">RETRAIT EN COMPTE</string>
+    <string name="cashOutWithdrawalReceipt">RETRAIT EN COMPTE</string>
+
+    <string name="alreadypaidCashToCash">Ce Mandat n est pas en instance</string>
+
+    <!-- Cash To Cash  Copy in Franchise-->
+
+    <string name="sameCountryCashTocash">TRANSFERT NATIONAL </string>
+    <string name="diffrentCountryCashTocash">TRANSFERT INTERNATIONAL </string>
+    <string name="cashToCash_small">Cash à Cash </string>
+    <string name="cashToCash_capital">CASH A CASH </string>
+
+    <string name="searchWithThe_transfer">Recherche via le numéro du Mandat </string>
+    <string name="searchWithThe_recepientName"> Recherche via le nom du Bénéficiaire</string>
+    <string name="searchWithThe_recepientPhone">Recherche via le numéro de téléphone</string>
+    <string name="provide_remittance_details">Information sur le mandat</string>
+    <string name="enter_details">Saisir les informations</string>
+    <string name="senderMobilePhone">Numéro de l expediteur:</string>
+    <string name="cashTocashSendMoneySameCountry">CASH A CASH  ENVOI IMONEY</string>
+    <string name="cashtoCashImoney">CASH A CASH  ENVOI</string>
+    <string name="cashtoCashImoneyReceipt">DUPLICATA CASH A CASH  ENVOI</string>
+    <string name="referenceNumberReceipt">Reference du Mandat:</string>
+    <string name="senderMobilePhoneNumber">Numéro de l expediteur</string>
+    <string name="senderNameNew">Nom de l expediteur</string>
+    <string name="billPaymentMenuNew">PAIEMENTS, ACHATS ET COLLECTES</string>
+    <string name="cashmarchnatdisplay">ACHATS ET COLLECTE DE FONDS</string>
+    <string name="sendCash_slip"> CASH A CASH ENVOI </string>
+
+    <string name="cashToCashReceiveReprint_new">DUPLICATA CASH A CASH RETRAIT</string>
+
+    <string name="selectBeneficierAccountNumber">Select Selectionner le numero beneficiaire</string>
+    <string name="benificeAccountNumber">Numéro du bénéficiaire</string>
+
+    <string name="orderTransfer_small">Demande de fonds</string>
+    <string name="orderTransfer_capital">DEMANDE DE FONDS TRANSFER</string>
+    <string name="orderTransferApproval_small">Approuver une demande de fonds </string>
+    <string name="orderTransferApproval_capital">APPROUVER UNE DEMANDE DE FONDS </string>
+
+
+
+
+    <string name="senderNameNewReceipt">Nom de l expediteur:</string>
+    <string name="recipientMobileNew">Numéro du Bénéficiaire</string>
+    <string name="cashInNewCapital">APPROVISIONNEMENT</string>
+    <string name="recipientMobileNewReceipt">Numéro du Bénéficiaire:</string>
+    <string name="recipientNameNew">Nom du Bénéficiaire</string>
+    <string name="recipientNameNewReceipt">Nom du Bénéficiaire:</string>
+    <string name="confCodeNew">Code de la Transaction</string>
+    <string name="displayUSedCurrency">Dévise</string>
+    <string name="cashToCashReceiveMoney">CASH A CASH DECHARGE IMONEY</string>
+    <string name="pleaseEnterValidIdProofNumber">Saisir une date d expiration valide</string>
+    <string name="idproofDateFormat">Date DD-MM-YYYY</string>
+    <string name="amountWord">Montant en lettre:</string>
+
+    <string name="cashToCashReceiveMoneyNew">CASH A CASH RETRAIT</string>
+    <string name="technicalfailure">Échec technique</string>
+
+
+    <!--   Cash To Cash End     -->
+
+    <string name="creatAgentReceipt">CREATION DE COMPTE</string>
+    <string name="sourceNameTitleReview">Nom de l expediteur:</string>
+    <string name="destinationTitleReview">Bénéficiaire:</string>
+    <string name="destinationphoneNoTitleReview">Numéro du Bénéficiaire:</string>
+    <string name="destinationNameTitleReview">Nom du Bénéficiaire:</string>
+    <string name="SenderNameTitleReview">Nom de l expediteur:</string>
+    <string name="senderMobileNoTitleReview">Numéro de l expediteur:</string>
+    <string name="destinationNumberTitleReview">Numéro du Bénéficiaire:</string>
+    <string name="senderMobileNoReceipt">Numéro de l expediteur:</string>
+    <string name="mobileNumberBenef">Numéro du Bénéficiaire:</string>
+    <string name="destinationMobileNumber">Numéro du Bénéficiaire:</string>
+    <string name="nameBenif">Nom du Bénéficiair:</string>
+    <string name="RecipientMobile">Numéro du Bénéficiaire :</string>
+    <string name="commentsTitleReview">Observation:</string>
+    <string name="serviceTitleReview">Frais de Service:</string>
+    <string name="enelNumberTitleReview">ENEL Number:</string>
+    <string name="meterStatusTitleReview">Meter Status:</string>
+    <string name="commentsCashIn">Observation</string>
+    <string name="commentReceiveMoney">Observation</string>
+    <string name="pleaseEnterLabelNameNew">Etablissement/Type paiement</string>
+    <string name="destinationNameTitleNew">Nom du Bénéficiaire:</string>
+    <string name="pleaseEnterLabelName">nom de étiquette</string>
+    <string name="pleaseEnterBillNumber">numéro de facture</string>
+    <string name="pleaseEnterMeterNumber">Please enter meter number</string>
+    <string name="pleaseEnterENELNumber">Please enter ENEL number</string>
+    <string name="pleaseEnterBillNumberNew">Référence paiement</string>
+   <string name="confirmationCodeReviewAccToCash">Code de Confirmation:</string>
+    <string name="agentNameReviewAccToCash">Nom de l Agent:</string>
+    <string name="idproofReviewAccToCash">Type de piéce:</string>
+    <string name="commentsReviewAccToCash">Observation:</string>
+    <string name="idproofTypeCreateAgent">Type de piéce</string>
+    <string name="idproofTypeReviewAccToCash">Type de piéce:</string>
+    <string name="languageTypeReviewAccToCash">Langue:</string>
+    <string name="billNumber">Numéro du Marchand:</string>
+    <string name="billName">Nom du Marchand:</string>
+    <string name="PayerAccountType">Type de compte à débiter:</string>
+    <string name="billDateTitleReview">Date de la facture:</string>
+    <string name="pleaseselectPaysofreceipnt">Selectionnez le pays du bénéficiaire</string>
+    <string name="accounttoaccountsuccess">Hi, Your Account to Account Transaction has been succeessfully completed</string>
+    <string name="accounttocashsuccess">Welcome to Express Union Mobile.
+        Dear Customer, You have transferred %1$s XAF to %2$s,
+        code is %3$s ID: %4$s, please inform the benef. your New Balance %5$s XAF.</string>
+
+    <string name="pleasEenterCommnets">Saisir une observation </string>
+    <string name="pleasEenterIdproof">Type de piéce </string>
+    <string name="pleasEenterConfirmationCode">Saisir le code de confirmation</string>
+
+    <string name="yourTransactionIdis">Votre numéro de Transaction est: </string>
+    <string name="accounttodebit">Selectionnez le compte à débiter</string>
+    <string name="provideReciepientDetails">Veuillez fournir les informations sur le bénéficiaire</string>
+
+    <string name="provideCashOutDetails">Veuillez saisir le code reçu par SMS par le client</string>
+
+    <string name="transactionCode">Code de retrait 04 lettres ou chiffres</string>
+
+    <string name="ProvideSubscriberDetails">Veuillez fournir les informations sur le Client</string>
+
+    <string name="enterSubscriberPhoneNumber">Saisir le numéro du Client</string>
+    <string name="provideReveiewDetails">Fournir les informations </string>
+    <string name="zero">Zero</string>
+    <string name="express_union_capital">EXPRESS UNION</string>
+
+    <string name="provideSendMoneyDetails">Fournir les informations sur le Transfert</string>
+    <string name="provideReceiveMoneyDetails">Fournir les informations sur le Transfert</string>
+
+    <string name="provideSendMoneyDetailsreceiveMo">Fournir les informations sur le Transfert</string>
+
+    <string name="provideSendMoneyDetailsReceiveMoney">Fournir les informations sur le Transfert</string>
+
+    <string name="expressUnionFinance">EXPRESS UNION FINANCE SA</string>
+    <string name="transactionReceipt">BORDEREAU </string>
+    <string name="cashiInDetail">Fournir les informations sur le bénéficiaire</string>
+    <string name="transactionReceiptNew">ENVOI D ARGENT </string>
+
+    <string name="rePortsType">Type de Listing</string>
+    <string name="blutoothlistdevice">Selectionnez votre imprimante Bluetooth</string>
+    <string name="cancel">Annuler</string>
+    <string name="refresh">Rafraichir</string>
+
+
+
+    <string name="agentTransId">Libele</string>
+    <string name="source">Code d utilisateur</string>
+    <string name="dateReport">Date:</string>
+
+
+
+
+
+<!--Number To Word Convert -->
+
+    <string-array name="oneToNineArray">
+
+        <item></item>
+        <item>un</item>
+        <item>deux</item>
+        <item>trois</item>
+        <item>quatre</item>
+        <item>cinq</item>
+        <item>six</item>
+        <item>sept</item>
+        <item>huit</item>
+        <item>neuf</item>
+
+    </string-array>
+
+    <string-array name="hundredToCroreArray">
+
+        <item>cent</item>
+        <item>mille</item>
+        <item>cent mille</item>
+        <item>million</item>
+
+        </string-array>
+
+    <string-array name="tenToNinteenArray">
+
+        <item>dix</item>
+        <item>onze</item>
+        <item>douze</item>
+        <item>treize</item>
+        <item>quatorze</item>
+        <item>quinze</item>
+        <item>seize</item>
+        <item>dix-sept</item>
+        <item>dix-huit</item>
+        <item>dix-neuf</item>
+
+    </string-array>
+
+    <string-array name="twentyToNinty">
+
+        <item>vingt</item>
+        <item>trente</item>
+        <item>quarante</item>
+        <item>cinquante</item>
+        <item>soixante</item>
+        <item>oixante-dix</item>
+        <item>quatre-vingts</item>
+        <item>quatre-vingt-dix</item>
+
+
+    </string-array>
+
+
+
+
+    <!--Number To Word Convert -->
+
+
+
+    <string name="error_digitreciepient">  digit reciepient mobile No </string>
+    <string name="receiepentname">Nom du Bénéficiaire</string>
+    <string name="receipentname">Saisir le Nom du Bénéficiaire</string>
+    <string name="reciepientnameReceiveMoney">Nom du Bénéficiaire</string>
+
+    <string name="sourceName">Saisir le Nom du Bénéficiaire</string>
+    <string name="EditTextView">Modifier</string>
+    <string name="canceltextView">Annuler</string>
+    <string name="sourceNameReveiw">Nom de l expediteur:</string>
+    <string name="senderNameReveiw">Nom de l expediteur:</string>
+
+    <string name="nameBenaficaComment">Nom du Bénéficiaire:</string>
+    <string name="senderName">Nom de l expediteur:</string>
+
+    <string name="accountofpayer">Selectionner le compte à débiter</string>
+    <string name="PleaseEnterName">Saisir le Nom </string>
+
+    <string name="pleaseSelectIdProofType">Type de piéce </string>
+    <string name="pleaseSelectLanguageType">Langue </string>
+
+    <string name="pleaseenteramount">Saisir le Montant</string>
+    <string name="pleaseEnterCurrency">Selectionnez la dévise</string>
+
+    <string name="pleaseselectsendmode">Selectionnez le mode d envoi</string>
+    <!-- <string name="accounttocashsuccess_beforeapproved">Hi, Your Account to Cash Transaction Request has been received and You will be notified once its approved.</string>-->
+    <string name="accounttocashsuccess_beforeapproved1">Welcome to Express Union Mobile. Dear Customer, You have transferred </string>
+    <string name="accounttocashsuccess_beforeapproved2"> to </string>
+    <string name="accounttocashsuccess_beforeapproved3"> code is </string>
+    <string name="accounttocashsuccess_beforeapproved4"> ID </string>
+    <string name="accounttocashsuccess_beforeapproved5">, please inform the benef. your New Balance  </string>
+    <string name="digitNumberAccountToCash"> digit number </string>
+    <string name="accounttocashsuccessconf">Hi, Your Account to Cash Transaction has been successfully completed. Conf Code is  </string>
+    <string name="moneytransfer_title">Money Transfer</string>
+
+    <string name="transactionId">Transaction Id :</string>
+    <string name="ConfCode">ConfCode  :</string>
+
+
+    <string name="cashInSucessReceipt">Hi, Your Cash In Transaction has been successfully completed.</string>
+    <string name="cashInSucessReceiptAmountMaximumNote"> Note : First Step validation successfully.To complete the transaction.Please visit to next BA windows.</string>
+    <string name="cashOutSucessReceiptAmountMaximumNote"> Note : First Step validation successfully.To complete the transaction.Please visit to next BA windows.</string>
+    <string name="SendMoneySucessReceiptAmountMaximumNote"> Note : First Step validation successfully.To complete the transaction.Please visit to next BA windows.</string>
+    <string name="BillpayDepositSucessReceiptAmountMaximumNote"> Note : First Step validation successfully.To complete the transaction.Please visit to next BA windows.</string>
+    <string name="ReceiveMoneySucessReceiptAmountMaximumNote"> Note : First Step validation successfully.To complete the transaction.Please visit to next BA windows.</string>
+    <string name="CashWithdrawalSucessReceipt">Hi, Your Cash Withdrawal Transaction has been successfully completed.</string>
+    <string name="resetMpinSucessfull">Le code secret a ete modifie avec succes</string>
+    <string name="ActiverSucessReceipt">Hi, Your Activer Transaction has been successfully completed.</string>
+
+    <string name="accountNumber">numéro de compte:</string>
+    <string name="accountTypeOtherAccount">Type de compte:</string>
+    <string name="title">Titre:</string>
+    <string name="bankingService">service bancaire mobile:</string>
+    <string name="actionOtherAccount">Action</string>
+
+    <!-- imoney Cash To Cash 15 Dec 2017 -->
+
+    <string name="cashtocashImoney_capital"> CASH POUR TRANSFERT </string>
+
+    <string name="cashfortransfer_deposit"> CASH POUR TRANSFERT-DEPOT </string>
+    <string name="cashfortransfer_withdrawal"> CASH POUR TRANSFERT-RETRAIT</string>
+
+    <string name="cashfortransferDeposit"> CASH POUR TRANSFERT-DEPOT</string>
+    <string name="cashfortransferWithdrawal"> CASH POUR TRANSFERT-RETRAIT</string>
+    <string name="cashfortransferSendCashCasncel"> CASH POUR TRANSFERT-ANNULATION ENVOI</string>
+
+    <string name="fdAccount">Fd Account</string>
+
+    <string name="referenceNumber">Reference a utiliser</string>
+
+    <string name="cintype">Cin type</string>
+    <string name="cinNumber">Cin number</string>
+    <string name="destinationName">Nom du Bénéficiaire</string>
+
+    <!--     end  imoney cash to cash -->
+    <string name="cancel_without_Fees"> Annulation sans Frais</string>
+    <string name="cancel_with_fees">Annulation avec Frais</string>
+
+
+    <string name="cashOutSameBranchSucessReceipt">Hi, Your Cash Out Same Branch Transaction has been successfully completed. </string>
+    <string name="cashOutDiffrentSucessReceipt">Hi, Your Cash Out Different  Branch Transaction has been successfully completed. </string>
+    <string name="billPayBillSucessReceipt">Hi, Your Bill Pay Transaction has been successfully completed. </string>
+    <string name="billPayDepositSucessReceipt">Hi, Your Bill Pay Deposit Transaction has been successfully completed. </string>
+    <string name="unblockSubscriberSucessReceipt">Hi, Your Unblock Subscriber Transaction has been successfully completed. </string>
+    <string name="PicImageUploadSucessReceipt">La photo et signature ont ete charge avec succes </string>
+
+    <string name="ChangeMpinSucessReceipt">Hi, Your Mpin  has been successfully Changed completed. </string>
+
+    <string name="tariffSucess">Hi, Your Tariff Transaction has been successfully completed.Applicable fee on is </string>
+
+    <string name="prepaidElectriVilleSucessReceipt">Hi, Your Prepaid ElectriVille Transaction has been successfully completed. </string>
+
+    <string name="remmettanceSendMoneyToMobileSucessReceipt">Hi, Your Remmitance Send Money To Mobile Transaction has been successfully completed. </string>
+    <string name="remmettanceSendMoneyToNameSucessReceipt">Hi, Your Remmitance Send Money To Name Transaction has been successfully completed. </string>
+    <string name="remmettanceReceiveMoneyToMobileSucessReceipt">Hi, Your Remmitance Receive Money To Mobile Transaction has been successfully completed. </string>
+    <string name="remmettanceSReceiveToNameSucessReceipt">Hi, Your Remmitance Receive Money To Name Transaction has been successfully completed. </string>
+    <string name="rePrintsSucessReceipt">Hi, Your Re Print Transaction has been successfully completed. </string>
+    <string name="TransactionApprovalSucessReceipt">Hi, Your Transaction Approval has been successfully completed. </string>
+    <string name="TransactionCancelSucessReceipt">Hi, Your Transaction Cancel has been successfully completed. </string>
+    <string name="createAccountSucessReceipt">Hi, Your Create Account has been successfully completed. </string>
+    <string name="printsSucessReceipt">Hi, Your  Print Receipt Transaction has been successfully completed. </string>
+    <string name="PleaseSelectBiller">Please Select Biller</string>
+    <string name="PleaseSelectOperationType">Type d operation</string>
+    <string name="billPrintSucessReceipt">Hi, Your Bill Transaction has been successfully completed. </string>
+    <string name="operationType">Type d operation</string>
+    <string name="timeSet">Time</string>
+    <string name="selectToTime">Time</string>
+    <string name="selectFromTime">Time</string>
+    <string name="rersendSmsSucessReceipt">Renvoi du sms effectuer avec success. </string>
+
+
+
+    <!--  Transaction Approval-->
+
+    <string name="cashin_approve">APPROBATION DEPOT EN COMPTE </string>
+    <string name="cashout_approve">APPROBATION RETRAIT EN COMPTE </string>
+    <string name="cashtoM_approve">APPROBATION COLLECTE DE FONDS</string>
+    <string name="sendMoney_approve">APPROBATION ENVOI D ARGENT</string>
+    <string name="receiveMoney_approve">APPROBATION PAIEMENT TRANSFERT</string>
+    <string name="receipt">RECEIPT</string>
+
+
+    <!--    -->
+
+    <string name="receiveMoneyCash">CASH TO CASH RETRAIT</string>
+
+    <string name="Tariff">Tarifaire</string>
+    <string name="bill">Facture</string>
+    <string name="Hifeesfor">Hi Fee for</string>
+    <string name="Transactionis">Transaction is</string>
+    <string name="PleaseProvideTariffDetails"> Please Provide Tariff Details</string>
+    <string name="PleaseProvidepictureSignDetails"> Please Provide Picture Sign Details</string>
+    <string name="PleaseProvideResendSmsDetails"> Veuillez fournir les information sur le SMS a renvoyer</string>
+    <string name="PleaseProvideWithdrawal"> Please Provide Withdrawal Details</string>
+    <string name="upload">Télécharger</string>
+    <string name="blockSubscriberSucessReceipt">Le compte du client a ete debloque avec succes</string>
+    <string name="pleaseselectlistdata">Veuillez sélectionner les données de la liste</string>
+
+    <string name="uploadSucessfully">Télécharger avec succès </string>
+
+    <string name="blockSubscriber">BLOCK SUBSCRIBER</string>
+    <string name="PleaseEnterValidMobileNumber">Veuillez entrer un numéro de portable valide</string>
+    <string name="PleaseEnterValidReferenceNumber">Veuillez entrer une référence valide non</string>
+
+
+    <string name="ClearAll"> Effacez toutes les valeures</string>
+
+    <string name="uploadUserImage"> Upload user image : </string>
+    <string name="uploadUserImageSignature"> Upload User signature : </string>
+
+
+    <string name="directionMiniStmt">Direction:</string>
+    <string name="currencyMiniStmt">Currency:</string>
+    <string name="PleaseSelectAccountType">Please Select Account Type</string>
+
+    <string name="billpayment_title">PAIEMENT DE FACTURE</string>
+    <string name="purchasegoodsandservices_title">Purchase Goods and Services</string>
+    <string name="requestforpaymenttransfer_title">Request for Payment Transfer</string>
+    <string name="authorisation_title">Authorisation</string>
+    <string name="cashwithdrwalanddeposit">Cash withdrawal and deposit</string>
+    <string name="accountmanagment">Account Management</string>
+    <string name="approvalNumber">Numero de transaction initie  </string>
+
+    <string name="reprintBillPayTitle">Re PRINT BILL PAY</string>
+
+    <string name="transactionApproval">VALIDATION D UNE TRANSACTION</string>
+    <string name="transactionCancel">ANNULATION D UNE TRANSACTION</string>
+    <string name="tariff">TARIFAIRE</string>
+    <string name="reports">EDITIONS</string>
+    <string name="rePrints">DUPLICATAS</string>
+    <string name="prints">RECUS ET BONS</string>
+
+    <string name="printsReceipt">RECUS</string>
+    <string name="reportsType">EDITIONS:</string>
+    <string name="billpayReversal">ANNULATION PAIEMENT FACTURE</string>
+    <string name="cashToMReversal">ANNULATION COLLECTE DE FONDS</string>
+
+    <string name="idproof">Please enter Id proof</string>
+
+    <string name="printReceipt">Code fourni par le client</string>
+    <string name="changempin_new">MODIFIER MON CODE SECRET</string>
+    <string name="currentMpin_new">Ancien Code Secret</string>
+    <string name="newMpin_new">Nouveau Code Secret</string>
+    <string name="confirmpin_new">Confirmez le Nouveau Code Secret</string>
+    <string name="resendSmsconfcodeNew">RENVOI SMS OPERATION</string>
+    <string name="re_setmpin_new">RENVOI ET MODIFICATION CODE SECRET CLIENT</string>
+    <string name="unblock_subscriber_new">REACTIVER UN COMPTE CLIENT</string>
+
+    <string name="hintMobileNoAcctoCashOut_new"> Numéro Mobile du Client %1$s chiffres </string>
+
+    <string name="idproofIssueDateFormat">Date emission pièce JJ-MM-AAAA</string>
+    <string name="idproofDate_receiveCashToCassh">Date expiration pièce JJ-MM-AAAA</string>
+
+    <string name="serialNumber">Numéro de l’Opération</string>
+
+    <string name="hello_worldRed">this is <font fgcolor="#ffff0000">red</font></string>
+
+    <string name="provideSubscriberDetails">Veuillez fournir les informations sur le Client</string>
+    <string name="pleaseSelectCity">Localité</string>
+
+    <string name="comment">Observation</string>
+    <string name="commentCashInNonmandatory">Please Enter Comment - Non Mandatory</string>
+    <string name="commentNew">Observation</string>
+    <string name="pleaseSourceName">Please enter source name</string>
+    <string name="commetReveiw">Observation:</string>
+    <string name="confirmatioCode">Please enter confirmation code </string>
+    <string name="enterBillerId">Enter Numero de facture</string>
+    <string name="loyalityCardNumber">Please enter loyality card number</string>
+    <string name="idproofTypeReview">Type de piéce:</string>
+    <string name="idproofReview">Id Proof:</string>
+    <string name="nameBenefic">name benef:</string>
+    <string name="commentReceipt">Observation:</string>
+    <string name="cashoutDetailMainMenu">Veuillez fournir les informations</string>
+
+
+    <string name="RecipientName">Nom du bénéficiaire:</string>
+
+    <string name="transactionReferencenumber_search">Reference du Mandat</string>
+    <string name="recipientMobileNumber_search">Numero mobile du Beneficiaire</string>
+    <string name="recipientName_search">Nom du Bénéficiaire</string>
+
+    <string name="accountName">Account name</string>
+    <string name="idProofNumber">Please enter id proof number  </string>
+    <string name="idProofNumberReceeiveReview">Numéro de la Piéce</string>
+
+    <string name="idProofNumberReview">Numéro de la Piéce</string>
+    <string name="address">Address</string>
+    <string name="Ville">Ville </string>
+    <string name="Pays">Pays</string>
+    <string name="accountNameReview">Account Name:</string>
+    <string name="accountNumberReview">Account Number:</string>
+    <string name="subscriberName">Nom du Client</string>
+    <string name="idProofNumberCreateAccount">Numéro de la Piéce</string>
+    <string name="idProofNumberNew">Numéro de la Piéce</string>
+
+    <string name="customerAddress">Customer Address</string>
+    <string name="idProofIssuePalce">Lieu de délivrance de la Piéce</string>
+
+    <string name="customerbirthplace">Lieu de naissance</string>
+    <string name="nextPage">EXECUTER</string>
+    <string name="reprintBillPay_new">Duplicata paiement facture</string>
+    <string name="oldtitle_new">ANC No TRANSACTION</string>
+    <string name="reprintCreateAgent">DUPLICATA CREATION COMPTE</string>
+
+    <string name="customerbirthstreet">Quartier de naissance</string>
+    <string name="commissions">Commissions</string>
+
+    <string name="pleaseEntertransactionCode">Saisir le code fournir par le Client</string>
+    <string name="pleaseEnterAccountName">Account name</string>
+    <string name="pleaseEnterAccountProfile">Profile du Compte</string>
+    <string name="pleaseEnteridProofNumber">Id proof number  </string>
+    <string name="pleaseEnterAddress">Address</string>
+    <string name="pleaseEnterVille">Ville </string>
+    <string name="pleaseEnterPays">Please enter Pays</string>
+
+    <string name="pleaseEnterSourceName">Please enter source name</string>
+    <string name="pleaseEnterDestationName">Please enter destination name</string>
+    <string name="pleaseEnterSenderName">nom de l Expediteur</string>
+    <string name="pleaseEnterSenderMobileNo">Numero de l Expediteur</string>
+    <string name="transaction_cancel_eumm">EUMM Annulation D une transaction</string>
+    <string name="imoneyCashtoCashCancel">cash to cash annuler</string>
+    <string name="transaction_approval_eumm">EUMM Approbation de la transaction</string>
+
+    <string name="reports_small">Editions</string>
+    <string name="rePrints_small">Duplicatas</string>
+    <string name="prints_small">Recus et bons</string>
+
+
+
+
+    <string name="pleaseEnterComment">Observation</string>
+    <string name="logout_small">Se Déconnecter</string>
+
+    <string name="pictureSign">PHOTO ET SIGNATURE</string>
+    <string name="otherAccount">AUTRES TYPES DE COMPTE</string>
+    <string name="customerService">SERVICE CLIENT</string>
+    <string name="languageChange">Change Langue</string>
+    <string name="changelanguage">Change Langue</string>
+    <string name="PleaseEnterValidEmail">Please enter valid email</string>
+    <string name="PleaseEnterEmail">Please enter email</string>
+    <string name="PleaseEnterProperEmail">Please enter valid email</string>
+
+    <string name="option1_money_transfer">Account to cash</string>
+    <string name="option2_money_transfer">Account to account</string>
+
+    <!--A/C to Cash-->
+    <string name="title_account_cash">Please Provide Recipient Details </string>
+
+    <string name="code">Code</string>
+
+    <string name="confCode">Conf Code</string>
+    <string name="pleaseEnterConfCode">Please enter conf code</string>
+    <string name="confCodeLong">Please enter code recieved By SMS</string>
+    <string name="PleaseEnterConfcode">Please enter conf code</string>
+    <string name="PleaseEnterConfcode_new">Code de Validation reçu par SMS par le client</string>
+
+    <string name="pleaseSelectAgentCode">Please select agent code</string>
+
+    <string name="pleaseSelectAccountCredit">Please select account to be credit</string>
+
+    <string name="sendMoney_small">Envoi d Argent</string>
+    <string name="sameCountry_small">Dans Le Meme Pays</string>
+    <string name="differentCountry_small">Vers Un Autre Pays</string>
+
+
+
+    <string-array name="AccountType">
+        <item>Please Select Account To Be Debited</item>
+
+    </string-array>
+
+    <string-array name="pleaseSelectAccountTypeCreated">
+        <item>Please Select Account To Be Credit</item>
+
+    </string-array>
+
+
+    <string-array name="AccountTypeAgentCode">
+        <item>Please Select Agent Code</item>
+
+    </string-array>
+
+    <string-array name="TransferTag">
+        <item>Please Select Transfer Tag</item>
+        <item>Fund Transfer</item>
+        <item>Salary</item>
+        <item>Rent</item>
+        <item>Tontine</item>
+        <item>Loan</item>
+        <item>Bill Payment</item>
+        <item>Credit</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="BankSelection">
+        <item>Please Select Bank</item>
+        <item>Express Union</item>
+
+    </string-array>
+    <string-array name="TransferBasis">
+        <item>Please Select Send Mode</item>
+        <item>Send To a Mobile Number</item>
+        <item>Send To a Name</item>
+    </string-array>
+
+
+    <string-array name="BillerNameArray">
+        <item>Please Select Biller Name</item>
+        <item>Dynamical Data Add</item>
+        <item>Biller one </item>
+        <item>Biller 2 </item>
+        <item>Biller 3 </item>
+        <item>Biller 4 </item>
+        <item>Biller 5 </item>
+
+
+    </string-array>
+    <string-array name="AccountTypeCode">
+        <item>Please Select Account</item>
+        <item>Savings Account</item>
+        <item>Mobile Account</item>
+        <item>Fixed Deposit</item>
+        <item>Current Account</item>
+    </string-array>
+    <string-array name="AccountTypeCode_">
+        <item>Please Select Account</item>
+        <item>Savings Account</item>
+        <item>Mobile Account</item>
+        <item>Fixed Deposit</item>
+        <item>Current Account</item>
+    </string-array>
+    <string-array name="AccountTypeCodeValue">
+        <item>Please Select Account type</item>
+        <item>SA</item>
+        <item>MA</item>
+        <item>FD</item>
+        <item>CA</item>
+    </string-array>
+
+    <string-array name="LanguageSelection">
+        <item>Selectionner la langue</item>
+        <item>Anglais</item>
+        <item>Francais</item>
+
+    </string-array>
+
+    <string-array name="TransferType">
+        <item>Please Select Transfer Type</item>
+        <item>Transfer: Account To Cash</item>
+        <item>Transfer: Account To Account</item>
+
+    </string-array>
+
+    <string-array name="PaymentMode_BillPay">
+        <item>Please Select Payment Mode</item>
+        <item>Pay All Bills</item>
+        <item>Pay Single Bill</item>
+
+    </string-array>
+
+    <string-array name="BillMode_BillPay">
+        <item>Mode de recherche de facture</item>
+        <item>Numéro de facture</item>
+        <item>Numéro de contrat du Client</item>
+
+    </string-array>
+
+
+
+    <string-array name="TxnTypeIdProof">
+        <item>Type de piéce</item>
+
+        <item>Pan Card Details</item>
+        <item>Driving License</item>
+        <item>Voter ID Card</item>
+        <item>Government ID Card</item>
+        <item>Passport Details</item>
+        <item>Bank Registration</item>
+        <item>NIC</item>
+        <item>Residence Card</item>
+        <item>Professional Card</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="TxnTypeReceipntReceiveMoney">
+        <item>Select Recepient Type</item>
+        <item>Mobile </item>
+        <item>Name</item>
+    </string-array>
+
+
+    <string-array name="TxnTypeReceipntReceiveMoneyCode">
+        <item>Select Recepient Type</item>
+        <item>Mobile </item>
+        <item>Name</item>
+    </string-array>
+
+
+
+    <string-array name="TxnTypeLanguage">
+    <item>Subscriber Language</item>
+    <item>Francais</item>
+    <item>Anglais</item>
+
+</string-array>
+    <string-array name="TxnTypeLanguageCode">
+        <item>Subscriber Language</item>
+        <item>FR</item>
+        <item>EN</item>
+
+    </string-array>
+
+
+    <string-array name="TxnTypeLanguageReceiveMoney">
+        <item>Langue</item>
+        <item>Francais</item>
+        <item>Anglais</item>
+
+    </string-array>
+    <string-array name="TxnTypeLanguageCodReceiveMoney">
+        <item>Subscriber Language</item>
+        <item>FR</item>
+        <item>EN</item>
+
+    </string-array>
+
+    <string-array name="genderType">
+        <item>Gender Type</item>
+        <item>Homme</item>
+        <item>Femme</item>
+
+    </string-array>
+    <string-array name="genderTypeCode">
+        <item>Gender Type</item>
+        <item>M</item>
+        <item>F</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="TxnTypeCode">
+        <item>Please Select Operation Type</item>
+
+        <item>ALL</item>
+        <item>PTOP</item>
+        <item>BILLPAY</item>
+        <item>PAYMENTREQUEST</item>
+        <item>PAYMENTREQAUTH</item>
+        <item>BALANCE</item>
+        <item>TARIFF</item>
+        <item>ACTIVER</item>
+
+    </string-array>
+
+    ///////////////////
+
+    <string-array name="TxnTypeCodeTariff">
+        <item>Please Select Operation Type</item>
+
+        <!--//   <item>ALL</item>-->
+
+        <item>REMTSEND</item>
+        <item>PTOP</item>
+
+        <item>BILLPAY</item>
+        <item>PAYMENTREQUEST</item>
+        <item>PAYMENTREQAUTH</item>
+        <item>BALANCE</item>
+        <item>TARIFF</item>
+        <item>ACTIVER</item>
+        <item>CASHIN</item>
+        <item>CASHOUT</item>
+
+        <item>CASHTOACCOUNT</item>
+        <item>PREPAIDELECTRIVille</item>
+        <item>PTOM</item>
+        <item>GENTPAYMENTCODE</item>
+
+
+    </string-array>
+
+
+
+    <!--
+//////////// 26 September Create Account   ////////
+-->
+
+
+
+
+
+    <string-array name="idProofTypeArray">
+
+        <item>ID Proof type</item>
+
+        <item>NIC</item>
+        <item>Residence Card</item>
+        <item>Passport Details</item>
+        <item>NIC Receipt</item>
+
+    </string-array>
+
+    <string-array name="idProofTypeArrayCode">
+
+        <item>ID Proof type</item>
+
+        <item>NIC</item>
+        <item>Residence Card</item>
+        <item>Passport Details</item>
+        <item>NIC Receipt</item>
+
+    </string-array>
+
+    <!--
+    //////////// 26 September Create Account  Id Proof  ////////
+    -->
+
+    <string-array name="TxnTypeTariff">
+        <item>Please Select Operation Type</item>
+        <!--//  <item>All</item>-->
+        <item>Account To Cash</item>
+        <item>Account To Account</item>
+
+        <item>Bill Pay</item>
+        <item>Payment Transfer</item>
+        <item>Payment Auth</item>
+        <item>Balance</item>
+        <item>Tariff</item>
+        <item>Banking Activation</item>
+        <item>Cash In</item>
+        <item>Cash Out</item>
+
+        <item>Cash To Account</item>
+        <item>Prepaid Payment</item>
+        <item>Purchase Goods</item>
+        <item>Generate Payment Code</item>
+
+    </string-array>
+
+    ////////////////////
+
+
+    <string-array name="TxnTypeApprovedCancel">
+        <item>Please Select Operation Type</item>
+
+        <item>CASHIN</item>
+        <item>BALANCE</item>
+        <item>CASHTOM</item>
+        <item>CASHOUT</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+
+    </string-array>
+
+
+    <string-array name="TxnType">
+        <item>Please Select Operation Type</item>
+
+        <item>CASHIN</item>
+        <item>BALANCE</item>
+        <item>CASHTOM</item>
+        <item>CASHOUT</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+    </string-array>
+
+
+    <string-array name="TxnTypeResendSms">
+        <item>Type d’Opération</item>
+
+        <item>DEMANDE DE PAIEMENT</item>
+        <item>PAIEMENT DE SALAIRE VIA ENVOI</item>
+        <item>RETRAIT EN COMPTE</item>
+        <item>DEPOT EN COMPTE</item>
+        <item>ENVOI D ARGENT</item>
+        <item>PAIEMENT DE FACTURE</item>
+        <item>TRANSFERT COMPTE A COMPTE</item>
+        <item>ACHAT</item>
+        <item>PAIEMENT DE SALAIRE PAR DEPOT</item>
+
+    </string-array>
+
+    <string-array name="TxnTypeSmsConfcode">
+        <item>Please Select Operation Type</item>
+
+        <item>PAYMENTREQUEST</item>
+        <item>SALARYREMTSEND</item>
+        <item>CASHOUT</item>
+        <item>CASHIN</item>
+        <item>REMTSEND</item>
+        <item>BILLPAY</item>
+        <item>PTOP</item>
+        <item>PTOM</item>
+        <item>SALARY</item>
+    </string-array>
+
+    <string-array name="TxnTypeTransactionApproval">
+        <item>Please Select Operation Type</item>
+
+        <item>CASHIN</item>
+        <item>CASHOUT</item>
+        <item>CASHTOM</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+
+
+    </string-array>
+
+    <string-array name="approvalType">
+        <item>Type d operation</item>
+
+       <!-- <item>Depot en Compte</item>
+        <item>Retrait en Compte</item>
+        <item>Achats et Collecte de fonds</item>
+        <item>Envoi d Argent</item>
+        <item>Creation de Compte</item>
+        <item>Paiement de Transfert</item>-->
+
+
+        <item>CASHIN</item>
+        <item>CASHOUT</item>
+        <item>CASHTOM</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+
+
+
+    </string-array>
+
+
+    <string-array name="transaction_type_approval">
+
+        <item>Type d operation</item>
+
+        <!-- <item>Depot en Compte</item>
+         <item>Retrait en Compte</item>
+         <item>Achats et Collecte de fonds</item>
+         <item>Envoi d Argent</item>
+         <item>Creation de Compte</item>
+         <item>Paiement de Transfert</item>-->
+
+
+        <item>Depot en Compte</item>
+        <item>Retrait en Compte</item>
+        <item>Achats et Collecte de fonds</item>
+        <item>Envoi d Argent</item>
+        <item>Creation de Compte</item>
+        <item>Paiement de Transfert</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="TxnTypeApproval">
+        <item>Please Select Operation Type</item>
+
+        <item>CASHIN</item>
+        <item>CASHOUT</item>
+        <item>CASHTOM</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="IDProofTypeArray">
+
+        <item>Type de piéce</item>
+
+        <item>Récépissé CNI</item>
+        <item>Permis de Conduire</item>
+        <item>Carte d’Electeur</item>
+        <item>Carte Consulaire</item>
+        <item>Passeport</item>
+        <item>carte Universitaire</item>
+        <item>CNI</item>
+        <item>Carte de Résident</item>
+        <item>Autre Pièce</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="IDProofTypeCodeArray">
+        <item>Type de piéce</item>
+
+        <item>PANCRD</item>
+        <item>DRVLIC</item>
+        <item>VOTRID</item>
+        <item>GOVTID</item>
+        <item>PASSPORT</item>
+        <item>REGISTER</item>
+        <item>NIC</item>
+        <item>RESCARD</item>
+        <item>PROFCARD</item>
+
+
+
+
+    </string-array>
+    <string-array name="TxnTypeMiniReports">
+        <item>Type d operation </item>
+
+        <item>Toutes les Operations</item>
+        <item>Depot en Compte</item>
+        <item>Consultation Solde</item>
+        <item>Achats et Collecte de fonds</item>
+        <item>Retrait en Compte</item>
+        <item>Envoi d Argent</item>
+        <item>Creation de Compte</item>
+        <item>Paiement de Transfert</item>
+        <item>Paiement de Facture</item>
+        <item>Annulation </item>
+        <item>Duplicata</item>
+        <item>Cash a Cash Envoi</item>
+        <item>Cash a Cash Retrait</item>
+
+    </string-array>
+
+    <string-array name="TxnTypeCodeMiniReports">
+        <item>Please Select Operation Type</item>
+
+        <item>ALL</item>
+        <item>CASHIN</item>
+        <item>BALANCE</item>
+        <item>CASHTOM</item>
+        <item>CASHOUT</item>
+        <item>REMTSEND</item>
+        <item>CREATEAGENT</item>
+        <item>REMTRECV</item>
+        <item>BILLPAY</item>
+        <item>REVERSAL</item>
+        <item>REPRINT</item>
+        <item>SENDCASH</item>
+        <item>RECEIVECASH</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="professionArray">
+
+        <item> Profession </item>
+        <item> Agent de sécurité </item>
+        <item> Agriculteur </item>
+        <item> Artiste </item>
+        <item> Assurance </item>
+        <item> Auditeur </item>
+        <item> Banquier </item>
+        <item> Barman </item>
+        <item> call box </item>
+        <item> Chauffeur </item>
+        <item> Entrepreneur </item>
+        <item> Marchand </item>
+        <item> Commercial </item>
+        <item> Comptable </item>
+        <item> Consultant </item>
+        <item> Controleur </item>
+        <item> Cuisinier </item>
+        <item> Éleveur </item>
+        <item> Professeur </item>
+        <item> Business Man </item>
+        <item> Étudiant </item>
+        <item> Fonctionnaire </item>
+        <item> Soldat </item>
+        <item> informaticien </item>
+        <item> Ingénieur </item>
+        <item> Avocat </item>
+        <item> Marketiste </item>
+        <item> Communicateur </item>
+        <item> Docteur </item>
+        <item> Ménagère </item>
+        <item> Officier de police </item>
+        <item> Retraité </item>
+        <item> secrétaire </item>
+        <item> Sportif </item>
+        <item> Autres </item>
+
+      <!--  Security agent,Farmer,Artist,Insurance,Auditor,Banker,Bartender,
+        call box,Driver,Entrepreneur,Dealer,Commercial,Accounting,Consultant,
+        Controller,Cooker,Breeder,Teacher,Contractor,Student,Official,Armed force,
+        computer scientist,Engineer,Lawyer,Marketiste,Doctor,Household,
+        Police officer,Retirement,Secretary,Sportmen,Others
+-->
+
+
+
+    </string-array>
+
+
+
+    <string-array name="professionArray_French">
+
+        <item> Profession </item>
+        <item> Agent de sécurité </item>
+        <item> Agriculteur </item>
+        <item> Artiste </item>
+        <item> Assurance </item>
+        <item> Auditeur </item>
+        <item> Banquier </item>
+        <item> Barman </item>
+        <item> call box </item>
+        <item> Chauffeur </item>
+        <item> Entrepreneur </item>
+        <item> Marchand </item>
+        <item> Commercial </item>
+        <item> Comptable </item>
+        <item> Consultant </item>
+        <item> Controleur </item>
+        <item> Cuisinier </item>
+        <item> Éleveur </item>
+        <item> Professeur </item>
+        <item> Business Man </item>
+        <item> Étudiant </item>
+        <item> Fonctionnaire </item>
+        <item> Soldat </item>
+        <item> informaticien </item>
+        <item> Ingénieur </item>
+        <item> Avocat </item>
+        <item> Marketiste </item>
+        <item> Communicateur </item>
+        <item> Docteur </item>
+        <item> Ménagère </item>
+        <item> Officier de police </item>
+        <item> Retraité </item>
+        <item> secrétaire </item>
+        <item> Sportif </item>
+        <item> Autres </item>
+
+        <!--  Security agent,Farmer,Artist,Insurance,Auditor,Banker,Bartender,
+          call box,Driver,Entrepreneur,Dealer,Commercial,Accounting,Consultant,
+          Controller,Cooker,Breeder,Teacher,Contractor,Student,Official,Armed force,
+          computer scientist,Engineer,Lawyer,Marketiste,Doctor,Household,
+          Police officer,Retirement,Secretary,Sportmen,Others
+  -->
+
+
+
+    </string-array>
+
+
+
+    <string-array name="IDProofTypeArrayRecevieMoney">
+        <item>Select Type de piéce</item>
+
+        <item>Pan Card Details</item>
+        <item>Driving License</item>
+        <item>Voter ID Card</item>
+        <item>Government ID Card</item>
+        <item>Passport Details</item>
+        <item>Bank Registration</item>
+        <item>NIC</item>
+        <item>Residence Card</item>
+        <item>Professional Card</item>
+
+    </string-array>
+
+
+    <!-- Receive cash To Cash -->
+
+   <!-- <string name="idProofTypeeceiveCashtoCash">Type de piece</string>
+
+    <string name="niceceiveCashtoCash">CNI</string>
+    <string name="passportReceiveCashtoCash">Passeport</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+    <string name="passportProfessionalCard">Carte Professionelle</string>
+-->
+
+    <string-array name="idproofReceiveCashToCash_ArrayData">
+
+        <item>Type de piece</item>
+
+        <item>CNI</item>
+        <item>Passeport</item>
+        <item>Carte Professionelle</item>
+
+        <item>Permis de conduire</item>
+        <item>Carte Scolaire</item>
+        <item>Carte d’Etudiant</item>
+        <item>Recepisse</item>
+        <item>Carte Consulaire</item>
+        <item>Carte d’Electeur</item>
+        <item>Autres pieces</item>
+
+    </string-array>
+
+    <string-array name="idproofReceiveCashToCash_Code">
+
+        <item>Id proof type</item>
+
+        <item>CI</item>
+        <item>PA</item>
+        <item>PC</item>
+
+        <item>AU</item>
+        <item>AU</item>
+        <item>AU</item>
+        <item>AU</item>
+        <item>AU</item>
+        <item>AU</item>
+        <item>AU</item>
+
+
+
+    </string-array>
+
+
+    <!--        -->
+
+    <string-array name="IDProofTypeCodeArrayReceiveMoney">
+        <item>Select Type de piéce</item>
+
+        <item>PANCRD</item>
+        <item>DRVLIC</item>
+        <item>VOTRID</item>
+        <item>GOVTID</item>
+        <item>PASSPORT</item>
+        <item>REGISTER</item>
+        <item>NIC</item>
+        <item>RESCARD</item>
+        <item>PROFCARD</item>
+
+
+
+
+    </string-array>
+
+
+    <string-array name="TxnTypeTariffNew">
+        <item>Type d operation</item>
+
+      // (account to cash, Receive money, Bill pay, cash in, cash out, prepaid payment, cash to merchant)
+      (Envoi d Argent, Paiement de transfert, Paiement de facture, Approvisionnement, Retrait, Paiement prépayé,  Collect de fonds )
+
+        <item>Envoi d Argent</item>
+        <item>Paiement de transfert</item>
+        <item>Paiement de facture</item>
+        <item>Depot en compte</item>
+        <item>Retrait en compte</item>
+        <item>Paiement prépayé</item>
+        <item>Collecte de fonds</item>
+        <item>Cash a Cash envoi</item>
+        <item>Cash a Cash retrait</item>
+
+    </string-array>
+
+    <string-array name="TxnTypeCodeTariffNew">
+
+        <item>Type d operation</item>
+
+        <item>REMTSEND</item>
+        <item>REMTRECV</item>
+        <item>BILLPAY</item>
+        <item>CASHIN</item>
+        <item>CASHOUT</item>
+        <item>PREPAIDELECTRICITY</item>
+        <item>CASHTOM</item>
+        <item>SENDCASH</item>
+        <item>RECEIVECASH</item>
+
+    </string-array>
+
+    <!--   International Remittance  15032019-->
+
+    <string name="international_Remittance">International Remittance</string>
+    <string name="title_activity_ir">IR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- 30042019  -->
+
+    <string name="cashin_menu">DEPOT EN COMPTE</string>
+    <string name="eu_mobile_money_capital">EU MOBILE MONEY</string>
+    <string name="cashfortransfer_capital">CASH POUR TRANSFERT</string>
+    <string name="commission_pullback_cap">TRANSFERT DE LA COMMISSIONS</string>
+    <string name="otherservice_cap">AUTRES SERVICES</string>
+    <string name="cashToCash_cap">CASH A CASH</string>
+    <string name="cashToMobile_cap">CASH VERS MOBILE</string>
+    <string name="title_activity_fragment_first">fragment_first</string>
+    <string name="resonfor_transfer">Motif du transfert</string>
+    <string name="senderMobileNumber_cashtocash">Numéro Mobile de l expediteur a %1$s chiffres </string>
+    <string name="destination_currency">Devise de Destination</string>
+
+
+    <string name="senderMobileNo_cashtocash">Numéro Mobile de l expediteur</string>
+    <string name="destinationCountry_cashtocash">Pays de Destination</string>
+    <string name="rercipient_mobileno_cashtocash">Numéro Mobile du bénéficiaire</string>
+    <string name="sending_currency_cashtocash">Devise de Départ</string>
+    <string name="vat">TAXE</string>
+    <string name="additional_tax">Taxe Additionalle, si nécessaire</string>
+    <string name="other_tax_title"> Autres Taxes</string>
+    <string name="Tax_one">Taxe  Une</string>
+    <string name="Tax_Two">Taxe Deux </string>
+    <string name="Tax_Three">Taxe Trois</string>
+    <string name="reasonTransfer_title">Motif du transfert</string>
+    <string name="gender_selection_title">Genre</string>
+    <string name="destination_details_title_recieve">Recipient Details</string>
+    <string name="destinationidproof_eui_recieve">Recipient Idproof:</string>
+    <string name="destinationidproof_issue_Recipient">Recipient Idproof issue date:</string>
+    <string name="profession_selection_title">Profession</string>
+    <string name="resident_selection_title">OUI si vous y résidez depuis plus 1 an</string>
+    <string name="sender_details_title">Sender Details:</string>
+    <string name="destination_details_title">Information sur le Beneficiaire</string>
+    <string name="amounts_details_title">Montant et Taxes</string>
+    <string name="other_taxes">Autres taxes</string>
+    <string name="totalamount_cashtocash">Montant Total</string>
+    <string name="rate_cashtocash">Taux</string>
+    <string name="amounttopay_cashtocash">Montant à payer</string>
+    <string name="recipint_mobilenumber_cashtocash_"> Numéro Mobile du bénéficiaire a %1$s chiffres</string>
+    <string name="name_cashtocash">Nom</string>
+    <string name="tutionfees_mpin_page">Nom</string>
+    <string name="agentBranceNameReceipt_tutionfees">Nom de l Agence:</string>
+
+    <string name="name_tutionFees">Prenom</string>
+
+    <string name="id_documnetnumber_cashtocash">Numéro de la piéce</string>
+    <string name="id_documentDateofissue_cashtocash">Date de délivrance de la piéce</string>
+    <string name="id_documentCountryOfissue_cashtocash">Pays de délivrance de la piéce</string>
+    <string name="id_document_placeofissue_cashtocash">Lieu de delivrance de la piéce</string>
+    <string name="id_document_tye_cashtocash">Type de piece</string>
+    <string name="gender_title_Type_cashtocash">Sexe</string>
+    <string name="homePhonenumber_cashtocash">Numéro de téléphone fixe</string>
+    <string name="address1">Adresse 1</string>
+    <string name="address2">Adresse 2</string>
+    <string name="resident">Resident ?</string>
+    <string name="country">Pays</string>
+    <string name="city_cashtocash">Ville</string>
+    <string name="recipientDetails">Informations sur le Beneficiaire</string>
+    <string name="pleaseComplete">Bien vouloir completer</string>
+    <string name="amount_to_pay">Montant a payer</string>
+    <string name="please_review">Veuillez confirmer</string>
+    <string name="transfer_detail">Les Details du transfert et saisissez toutes autres taxes</string>
+    <string name="transfer_detail_new">Les Details du transfert et saisissez toutes autres taxes</string>
+    <string name="please_enter_otp_code">Veuillez saisir le code de securite</string>
+    <string name="sendbysmstothe_recipient">Envoyer par SMS au beneficiaire</string>
+    <string name="resend_otp_receiveMoney">RENVOI CODE DE SECURITE</string>
+    <string name="enter_otp_receiveMoney">Code de securite - 06 chiffres</string>
+    <string name="otpsend_succesfully">code de securite envoyé avec succes</string>
+    <string name="birth_date">Date de naissance</string>
+    <string name="vat_capital">TAX</string>
+    <string name="mobiletocash_capital">MOBILE VERS LE CASH</string>
+    <string name="senderDetail">Information sur l expediteur</string>
+    <string name="recipient_details_cashtocah">Information sur le beneficiaire</string>
+    <string name="test_question">Question Test</string>
+    <string name="question">Question</string>
+    <string name="answer">Reponse</string>
+    <string name="reason_of_the_transfer_cashtocash">Reponse</string>
+    <string name="please_ask_the_recipient">Veuillez demander au bénéficiaire la question test</string>
+    <string name="the_answer_to_the_test_question">Repondez a la uestion test</string>
+    <string name="please_check">Veuillez verifier le reponse à la question test donnée par le bénéficiaire </string>
+    <string name="test_question_answer">Reponse a la question test</string>
+    <string name="search_with">Rechercher avec</string>
+    <string name="transaction_reference_number">Numero de reference de la Transaction</string>
+    <string name="please_review_details_and">Veuillez confirmer les informations et </string>
+    <string name="check_recipient_name">Veuillez verifier le nom du beneficiaire</string>
+    <string name="identification_document"> sur sa piece d identite</string>
+    <string name="transfer_details">Detaille du transfert </string>
+    <string name="reference_number_cashtocash">Numero de Reference</string>
+    <string name="purchaseBilpayments_cap">PAIEMENTS,ACHATS ET COLLECTES DE FONDS</string>
+
+    <string name="enter_question_manullay">Entrer la question manuellement</string>
+    <string name="test_questionforthe_receipt">Question test pour le destinataire</string>
+    <string name="recipient_s_details">Details du destinataire</string>
+    <string name="transfer_detail_cashtocash">Details du transfert</string>
+    <string name="name_of_your_first_child">Nom de votre premier enfant</string>
+    <string name="receiveMoney_smal"> Paiement De Transfert</string>
+    <string name="receiveMoney_smal_2"> Paiement de transfert</string>
+
+    <string name="secerateCode">Saisir le code secret à 4 chiffres</string>
+    <string name="report_prints">Rapports et impressions</string>
+    <string name="pictures_and_Sign">Photos et signe</string>
+    <string name="transactionApproval_small">Validation d une Transaction</string>
+    <string name="transactionCancel_small">Annulation D une transaction</string>
+    <string name="customerService_small">Service Client</string>
+    <string name="tariff_small">Tarifaire</string>
+    <string name="thresHolderAmount">Ce client n est pas enregistré, BV enregistrer le client puis ensuite recommencer l operation</string>
+
+
+
+
+
+    <!--  receipt page  -->
+
+
+
+    <string name="sendername_reprints">Nom de l Expediteur:</string>
+    <string name="sendernumber_reprints">Numero de l Expediteur:</string>
+    <string name="senderCountry_receiptss">Pays d Expedition:</string>
+    <string name="cashToCashTitile_reprints">ENVOI CASH A CASH EUI:</string>
+    <string name="senderidproof_reprints">No piece d identite::</string>
+    <string name="senderidproof_reciept_title">No piece d identite::</string>
+    <string name="senderidproof_issueDate_reprints">Date de deliverance de la piece:</string>
+    <string name="senderidproof_issueDate_reciept_title">Date de deliverance de la piece:</string>
+    <string name="sender_currencyType_reprints">Devise a l Envoi:</string>
+    <string name="tax_reprints">Taxes:</string>
+    <string name="tax_new">Taxes:</string>
+    <string name="amountToSend_reprint">Devise a l Envoi :</string>
+    <string name="amountToSend_new">Montant a Envoyer:</string>
+    <string name="totalamountpay_reprints">Montant a percevoir:</string>
+    <string name="totalamountsend_eui">Montant total percu:</string>
+    <string name="otherTax_reprints">Autres Taxes:</string>
+    <string name="totalamountsend_reprints">Montant Total Payé::</string>
+    <string name="destination_durrency_type">Devise a la Reception:</string>
+    <string name="amountTopay_reprints">Montant a percevoir a la reception:</string>
+    <string name="amountoCollect_reciept_title">Montant a percevoir a la reception:</string>
+    <string name="test_question_reprints">Question Test:</string>
+    <string name="test_answer_reprints">Reponse Test:</string>
+    <string name="other_details_title">Autres Informations</string>
+    <string name="cashToCashTitile_receiveCash_reprints">DECHARGE CASH A CASH EUI:</string>
+    <string name="senderfirstname_eui">Prenom:</string>
+    <string name="reciepientNo_cashToCash">Numéro Mobile du Bénéficiaire</string>
+
+    <string name="destinationidproof_reprint">No piece d identite::</string>
+    <string name="destinationidproof_issue_reprint">Date de deliverance de la piece:</string>
+    <string name="destination_currencyType_reprint">Devise a la Reception:</string>
+
+    <string name="id_documentdateofissue_cashtocash">Date d Emission de la Piece</string>
+    <string name="gender_sendCash">Genre</string>
+    <string name="gender_title_new">Genre</string>
+    <string name="gender_new">Genre</string>
+
+
+
+    <!--
+            <string name="purchaseBilpayments_cap">PURCHASES &amp; BILL  PAYMENTS</string>
+        -->
+
+    <string-array name="genderTitle_name">
+        <item>Selectionnez le sex</item>
+        <item>Homme</item>
+        <item>Femme</item>
+
+    </string-array>
+    <string-array name="genderTittle_code">
+        <item>Gender Type</item>
+        <item>M</item>
+        <item>F</item>
+
+    </string-array>
+
+    <string-array name="genderTitle_name_sendCash">
+        <item>Selectionnez le Genre </item>
+        <item>Mr</item>
+        <item>Mme</item>
+        <item>Mlle</item>
+    </string-array>
+
+    <string-array name="genderTittle_code_sendCash">
+        <item>Selectionnez le Genre</item>
+        <item>M</item>
+        <item>F</item>
+        <item>F</item>
+
+    </string-array>
+    <string name="id_documentcountryofissue_cashtocash">Pays d Emission de la Piece</string>
+    <string name="manually_question">Saisir une Question</string>
+
+    <string name="type_de_document_id">Type de document id</string>
+    <string name="type_de_document_id_aaaa">Type de Piéce</string>
+
+    <string name="destination_country_title">Pays de Destination</string>
+    <string name="destination_mobileno_title">Numero Mobile du Beneficiaire</string>
+    <string name="sender_mobileno_title"> Numero Mobile de l Expediteur</string>
+    <string name="id_document_type_title">Type de Piece</string>
+    <string-array name="reason_name_array">
+        <item>Raison du transfert</item>
+        <item>Payer pour que les travaux soient termines a l etranger</item>
+        <item>Envoi d argent à des amis ou a la famille</item>
+        <item>Payer les frais de scolarite a l etranger</item>
+        <item>Payer des factures a l etranger</item>
+
+    </string-array>
+    <string-array name="reason_code_array">
+        <item>Reason of the transfer</item>
+        <item>000</item>
+        <item>111</item>
+        <item>222</item>
+        <item>333</item>
+
+    </string-array>
+
+    <string-array name="residentType_Type_array">
+        <item>Resident ?</item>
+        <item>OUI</item>
+        <item>NON</item>
+
+
+    </string-array>
+
+    <string-array name="residentType_code_array">
+        <item>Resident ?</item>
+        <item>YES</item>
+        <item>NO</item>
+
+    </string-array>
+
+    <string-array name="idDocumnetType_name">
+        <item>Type de document id</item>
+
+        <item>Pan Card Details</item>
+        <item>Driving License</item>
+        <item>Voter ID Card</item>
+        <item>Government ID Card</item>
+        <item>Passport Details</item>
+        <item>Bank Registration</item>
+        <item>NIC</item>
+        <item>Residence Card</item>
+        <item>Professional Card</item>
+
+    </string-array>
+
+
+    <string-array name="idDocumnet_countryIssueName_array">
+        <item>ID document pays d emission</item>
+
+        <item>Cameroon</item>
+        <item>Gabon</item>
+        <item>Drc</item>
+        <item>India</item>
+
+    </string-array>
+
+    <string-array name="idDocumnet_countryIssue_code_array">
+        <item>ID document pays d emission</item>
+
+        <item>000</item>
+        <item>111</item>
+        <item>222</item>
+        <item>333</item>
+
+
+    </string-array>
+
+
+    <string-array name="partnerTransactionType">
+        <item>ERA / IMONEY</item>
+        <item>"EXPRESS UNION INTERNATIONAL</item>
+    </string-array>
+
+    <string-array name="partnerTransactionType_code">
+        <item>ERA / IMONEY</item>
+        <item>UNION INTERNATIONAL</item>
+    </string-array>
+
+
+
+    <string-array name="testQuestion_name_array">
+
+        <item>Questions d examen</item>
+        <item>Quel etait ton surnom d enfance</item>
+        <item>Quel est le nom de ton ami d enfance préféré</item>
+        <item>Quel etait ton sport prefere au lycee</item>
+        <item>Quel etait ton plat prefere en tant quenfant</item>
+        <item>Quel etait le nom de l entreprise ou vous avez eu votre premier emploi</item>
+        <item>Question manuelle</item>
+
+
+    </string-array>
+
+
+
+
+    <string-array name="professionArray_cashtocash_sendmoney">
+
+
+        <item>Profession</item>
+
+        <item>Agent</item>
+        <item>Assurance</item>
+        <item>Avocat</item>
+        <item>Agent de sécurité</item>
+        <item>Agriculteur</item>
+        <item>Agent de sécurité</item>
+        <item>Artiste</item>
+        <item>Auditeur</item>
+        <item>Banquier</item>
+        <item>Barman</item>
+        <item>Call Box</item>
+        <item>Comptabilité</item>
+        <item>Consultant</item>
+        <item>Commercial</item>
+        <item>Cuisinier</item>
+        <item>Chauffeur</item>
+        <item>Entrepreneur</item>
+        <item>Étudiant</item>
+        <item>Force armée</item>
+        <item>Fermier</item>
+        <item>Informaticien</item>
+        <item>Ingénieur</item>
+        <item>Marchand</item>
+        <item>Ménage</item>
+        <item>Médecin</item>
+        <item>Marketiste</item>
+        <item>Officiel</item>
+        <item>Officier de police</item>
+        <item>Professeur</item>
+        <item>Retraité</item>
+        <item>Secrétaire</item>
+        <item>Sportifs</item>
+        <item>Autres</item>
+
+      </string-array>
+
+
+    <string-array name="nationality_array_sendMoney_EUI">
+
+        <item>Nationalité</item>
+        <item>CAMEROON</item>
+        <item>GABON</item>
+        <item>TCHAD</item>
+        <item>REPUBLIQUE CENTRAFRICAINE</item>
+        <item>CONGO</item>
+        <item>REPUBLIQUE DEMOCRATIQUE DU CONGO</item>
+        <item>BENIN</item>
+        <item>COTE DIVOIRE</item>
+        <item>BUKINA FASO</item>
+        <item>MALI</item>
+        <item>NIGER</item>
+        <item>TOGO</item>
+        <item>SENEGAL</item>
+        <item>GUINEE CONAKRY</item>
+        <item>FRANCE</item>
+        <item>SUISSE</item>
+        <item>CANADA</item>
+        <item>ABU</item>
+        <item>AFGHANISTAN</item>
+        <item>AFRIQUE</item>
+        <item>ALBANIE</item>
+        <item>ALGERIE</item>
+        <item>ALLEMAGNE</item>
+        <item>ANDORRE</item>
+        <item>ANGOLA</item>
+        <item>ANGUILLA</item>
+        <item>ANTIGUA</item>
+        <item>ANTILLES</item>
+        <item>ARABIE</item>
+        <item>ARGENTINE</item>
+        <item>ARMENIE</item>
+        <item>ARUBA</item>
+        <item>AUSTRALIE</item>
+        <item>AUTRICHE</item>
+        <item>AZERBAIDJAN</item>
+        <item>BAHAMAS</item>
+        <item>BAHREIN</item>
+        <item>BANGLADESH</item>
+        <item>BARBADE</item>
+        <item>BELARUS</item>
+        <item>BELGIQUE</item>
+        <item>BELIZE</item>
+        <item>BENIN</item>
+        <item>BERMUDES</item>
+        <item>BHOUTAN</item>
+        <item>BOLIVIE</item>
+        <item>BOSNIE</item>
+        <item>BOTSWANA</item>
+        <item>BRESIL</item>
+        <item>BRUNEI</item>
+        <item>BULGARIE</item>
+        <item>BURKINA</item>
+        <item>BURUNDI</item>
+        <item>C.E.E.</item>
+        <item>CAMBODGE</item>
+        <item>CAMEROUN</item>
+        <item>CANADA</item>
+        <item>CAP</item>
+        <item>CEUTA</item>
+        <item>CHILI</item>
+        <item>CHINE</item>
+        <item>CHYPRE</item>
+        <item>COLOMBIE</item>
+        <item>COMORES</item>
+        <item>CONGO</item>
+        <item>COREE</item>
+        <item>COREE</item>
+        <item>COSTA</item>
+        <item>COTE</item>
+        <item>CROATIE</item>
+        <item>CUBA</item>
+        <item>DANEMARK</item>
+        <item>DJIBOUTI</item>
+        <item>DOMINIQUE</item>
+        <item>DUBAI</item>
+        <item>EGYPTE</item>
+        <item>EL</item>
+        <item>EMIRATS</item>
+        <item>EQUATEUR</item>
+        <item>ERYTHREE</item>
+        <item>ESPAGNE</item>
+        <item>ESTONIE</item>
+        <item>ETATS-UNIS</item>
+        <item>ETHIOPIE</item>
+        <item>FIDJI</item>
+        <item>FINLANDE</item>
+        <item>FRANCE</item>
+        <item>GABON</item>
+        <item>GAMBIE</item>
+        <item>GEORGIE</item>
+        <item>GEORGIE</item>
+        <item>GHANA</item>
+        <item>GIBRALTAR</item>
+        <item>GRECE</item>
+        <item>GRENADE</item>
+        <item>GROENLAND</item>
+        <item>GUADELOUPE</item>
+        <item>GUAM</item>
+        <item>GUATEMALA</item>
+        <item>GUINEE</item>
+        <item>GUINEE</item>
+        <item>GUINEE</item>
+        <item>GUYANA</item>
+        <item>GUYANE</item>
+        <item>HAITI</item>
+        <item>HONDURAS</item>
+        <item>HONG-KONG</item>
+        <item>HONGRIE</item>
+        <item>ILE</item>
+        <item>ILE</item>
+        <item>ILE</item>
+        <item>ILE</item>
+        <item>ILE</item>
+        <item>ILE</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>ILES</item>
+        <item>INDE</item>
+        <item>INDONESIE</item>
+        <item>IRAK</item>
+        <item>IRAN</item>
+        <item>IRLANDE</item>
+        <item>ISLANDE</item>
+        <item>ISRAEL</item>
+        <item>ITALIE</item>
+        <item>JAMAIQUE</item>
+        <item>JAPON</item>
+        <item>JORDANIE</item>
+        <item>KAZAKHSTAN</item>
+        <item>KENYA</item>
+        <item>KIRGHIZISTAN</item>
+        <item>KIRIBATI</item>
+        <item>KOWEIT</item>
+        <item>LAO,</item>
+        <item>LESOTHO</item>
+        <item>LETTONIE</item>
+        <item>LIBAN</item>
+        <item>LIBERIA</item>
+        <item>LIBYENNE</item>
+        <item>LIECHTENSTEIN</item>
+        <item>LITUANIE</item>
+        <item>LUXEMBOURG</item>
+        <item>MACAO</item>
+        <item>MACEDOINE</item>
+        <item>MADAGASCAR</item>
+        <item>MALAISIE</item>
+        <item>MALAWI</item>
+        <item>MALDIVES</item>
+        <item>MALI</item>
+        <item>MALTE</item>
+        <item>MARCHE</item>
+        <item>MARIANNES</item>
+        <item>MAROC</item>
+        <item>MARTINIQUE</item>
+        <item>MAURICE</item>
+        <item>MAURITANIE</item>
+        <item>MAYOTTE</item>
+        <item>MEXIQUE</item>
+        <item>MICRONESIE</item>
+        <item>MOLDOVA</item>
+        <item>MONACO</item>
+        <item>MONGOLIE</item>
+        <item>MONTSERRAT</item>
+        <item>MOZAMBIQUE</item>
+        <item>MYANMAR</item>
+        <item>NAMIBIE</item>
+        <item>NAURU</item>
+        <item>NEPAL</item>
+        <item>NICARAGUA</item>
+        <item>NIGER</item>
+        <item>NIGERIA</item>
+        <item>NIOUE</item>
+        <item>NORVEGE</item>
+        <item>NOUVELLE</item>
+        <item>NOUVELLE</item>
+        <item>OCEAN</item>
+        <item>OCEANIE</item>
+        <item>OMAN</item>
+        <item>OUGANDA</item>
+        <item>OUZBEKISTAN</item>
+        <item>PAKISTAN</item>
+        <item>PALAU</item>
+        <item>PALESTINE</item>
+        <item>PANAMA</item>
+        <item>PAPOUASIE</item>
+        <item>PARAGUAY</item>
+        <item>PEROU</item>
+        <item>PHILIPPINES</item>
+        <item>PITCAIRN</item>
+        <item>POLOGNE</item>
+        <item>POLYNESIE</item>
+        <item>PORTO</item>
+        <item>PORTUGAL</item>
+        <item>QATAR</item>
+        <item>REG</item>
+        <item>REP</item>
+        <item>REPUBLIQUE</item>
+        <item>REPUBLIQUE</item>
+        <item>REPUBLIQUE</item>
+        <item>REUNION</item>
+        <item>ROUMANIE</item>
+        <item>ROYAUME-UNI</item>
+        <item>RUSSIE(FEDERATION</item>
+        <item>RWANDA</item>
+        <item>SAHARA</item>
+        <item>SAINTE</item>
+        <item>SAINTE-LUCIE</item>
+        <item>SAINT-KITTS</item>
+        <item>SAINT-MARIN</item>
+        <item>SAINT-PIERRE</item>
+        <item>SAINT-VINCENT</item>
+        <item>SAMOA</item>
+        <item>SAMOA</item>
+        <item>SAO</item>
+        <item>SENEGAL</item>
+        <item>SERBIE-ET-MONTENEGRO</item>
+        <item>SEYCHELLES</item>
+        <item>SHARJAH</item>
+        <item>SIERRA</item>
+        <item>SINGAPOUR</item>
+        <item>SLOVAQUIE</item>
+        <item>SLOVENIE</item>
+        <item>SOMALIE</item>
+        <item>SOUDAN</item>
+        <item>SRI</item>
+        <item>SUEDE</item>
+        <item>SUISSE</item>
+        <item>SURINAME</item>
+        <item>SVALBARD</item>
+        <item>SWAZILAND</item>
+        <item>SYRIE</item>
+        <item>TADJIKISTAN</item>
+        <item>TAIWAN</item>
+        <item>TANZANIE</item>
+        <item>TCHAD</item>
+        <item>TERRES</item>
+        <item>THAILANDE</item>
+        <item>TIMOR</item>
+        <item>TOGO</item>
+        <item>TOKELAOU</item>
+        <item>TONGA</item>
+        <item>TRINITE</item>
+        <item>TURKMENISTAN</item>
+        <item>TURQUIE</item>
+        <item>TUVALU</item>
+        <item>UKRAINE</item>
+        <item>UNION</item>
+        <item>URUGUAY</item>
+        <item>VANUATU</item>
+        <item>VATICAN</item>
+        <item>VENEZUELA</item>
+        <item>VIET</item>
+        <item>YEMEN</item>
+        <item>ZAMBIE</item>
+        <item>ZIMBABWE</item>
+
+    </string-array>
+
+    <!-- tution Fees 20  june 2019-->
+    <string name="level_name_new">nom de niveau</string>
+    <string name="levelName_2">Informations sur la Classe</string>
+
+    <string name="selectFeesType">Selectionnez le type de frais</string>
+
+    <string name="tution_fees">Frais de Scolarites</string>
+    <string name="purchase_billpayment_deposit">Paiement de Factures,Achats et Collecte de Fonds</string>
+    <string name="purchase_billpayment_deposit_new">Paiement de Factures,Achats et Collecte de Fonds</string>
+
+    <string name="cashToMarchant_small">Verssement pour un marchand</string>
+    <string name="prepaid_electricity_recharge">Factures Prepaiyes</string>
+    <string name="pay">Payer</string>
+    <string name="tution_fees_capital">FRAIS DE SCOLARITES</string>
+    <string name="find_a_school">Rechercher un Etablissement</string>
+    <string name="find_a_student">Rechercher un Eleve</string>
+
+    <string name="enterSchoolCode">Saisir le code de l Etablissement</string>
+    <string name="enterStudentregistrationNumber">Saisir le numero de Reference/Matricule de l Elève</string>
+    <string name="schoolCode">Code de l Etablissement</string>
+    <string name="school_name_old">Nom de l Eleve</string>
+    <string name="region_small">Region</string>
+    <string name="division">Departement</string>
+    <string name="schoolname_review_page">Nom de l Etablissement</string>
+    <string name="school_name_first_page">Sélectionner un Etablissement</string>
+
+    <string name="studentName_third_page">Prenom de l eleve</string>
+
+
+    <string name="sub_division">Arrondissement</string>
+    <string name="search_with_new">Rechercher via</string>
+    <string name="schoolname_2">Saisir un Nom ou un mot</string>
+
+    <string name="find">Rechercher</string>
+    <string name="studentDetails">Informations sur l Eleve</string>
+    <string name="studentRegistrationNumber">Numero de Reference/Matricule de l Elève</string>
+    <string name="studentFirstName">Prenom de l Eleve</string>
+    <string name="studentFirstName_reviewpage"> Nom ou Mot</string>
+    <string name="studentFirstName_reviewpage_new">Nom de l eleve</string>
+
+    <string name="studentFirstName_new">Nom ou Mot</string>
+    <string name="studentMobileNumber">Numero de telephone de l Elève</string>
+    <string name="studentmail">Email de l Eleve</string>
+    <string name="studentName">Nom de l Eleve</string>
+    <string name="schoolname_receiptpage">Nom de l Etablissement</string>
+
+    <string name="gender_receiptpage">Sexe</string>
+
+    <string name="name_payer">Nom</string>
+
+
+    <string name="name_receiptpage">Prenom</string>
+    <string name="firstName_receiptpage">Nom</string>
+    <string name="classname_name_receiptpage">Nom</string>
+
+    <string name="studentName_new">Nom de l Etablissement</string>
+    <string name="registrationNumber">Numero d Enregistrement</string>
+    <string name="classDetails">Informations sur la Classe</string>
+    <string name="className">Classe</string>
+    <string name="feetype">Type de Frais</string>
+    <string name="fullPayment">Paiement de la Totalite</string>
+    <string name="paymentOption">Option de Paiement</string>
+    <string name="tuitionFees">Frais de Scolarites</string>
+    <string name="examFees">Frais d Examen</string>
+    <string name="competitionfees">Frais de Concours</string>
+    <string name="payerdetails">Information sur le Client qui fait le paiement</string>
+    <string name="PayerMobileNumber">Numero mobile du Client</string>
+    <string name="PayerName">Nom du Client</string>
+    <string name="payerEmail">Email du Client</string>
+    <string name="feesDetails">Information sur les Frais</string>
+    <string name="level">Niveau</string>
+    <string name="option">Option</string>
+    <string name="transactionDetails">Informations sur la Transaction</string>
+    <string name="examinationFees">Frais d Examen</string>
+    <string name="transactionAmount">Montant de la Transaction</string>
+    <string name="payerName">Nom du Client</string>
+    <string name="schoolDetail">Informations sur l Etablissement</string>
+    <string name="full_payment">Paiement de la Totalite</string>
+    <string name="find_school_new">Rechercher l Etablissement via son Nom ou un mot</string>
+    <string name="enterSchoolCode_new">Rechercher l Etablissement à travers son Code</string>
+    <string name="enter_registrationNumber_new">Rechercher à travers le numéro de Reference/Matricule de l Elève</string>
+
+    <string name="partial_payment">Paiement partiel</string>
+    <string name="name_tutionfees">Prenom</string>
+    <string name="name_tutionfees_new">Nom ou un mot </string>
+    <string name="name_tutionfees_mpin_page">Nom ou un mot </string>
+
+    <string name="student_birth_date">Date de naissance</string>
+    <string name="student_gender_new">Sexe des etudiants</string>
+    <string name="scholl_year">Annee scolaire</string>
+    <string name="seach_result">Résultat de la recherche</string>
+    <string name="amount_in_letter">Montant en lettre</string>
+    <string name="student_gender_title">Sexe de l Elève</string>
+    <string name="amountCanotbeGreater">Le montant partiel ne peut être supérieur au montant initial</string>
+
+
+
+
+
+
+    <!--   ****** ID ***  custome ID   Edittext Check Box -  Radio Button    -->
+
+    <string  name="FRAIS_EXAMEN_BEPC" >FRAIS_EXAMEN_BEPC</string>
+    <string  name="fullpayment_FRAIS_EXAMEN_BEPC" >fullpayment_FRAIS_EXAMEN_BEPC</string>
+    <string  name="partial_payment_FRAIS_EXAMEN_BEPC" >partial_payment_FRAIS_EXAMEN_BEPC</string>
+    <string  name="radiogrp_FRAIS_EXAMEN_BEPC" >radiogrp_FRAIS_EXAMEN_BEPC</string>
+    <string  name="edittext_FRAIS_EXAMEN_BEPC" >edittext_FRAIS_EXAMEN_BEPC</string>
+    <string  name="FRAIS_EXIGIBLES" >FRAIS_EXIGIBLES</string>
+    <string  name="fullpayment_FRAIS_EXIGIBLES" >fullpayment_FRAIS_EXIGIBLES</string>
+    <string  name="partial_payment_FRAIS_EXIGIBLES" >partial_payment_FRAIS_EXIGIBLES</string>
+    <string  name="radiogrp_FRAIS_EXIGIBLES" >radiogrp_FRAIS_EXIGIBLES</string>
+    <string  name="edittext_FRAIS_EXIGIBLES" >edittext_FRAIS_EXIGIBLES</string>
+    <string  name="Compitation_fees" >Compitation_fees</string>
+    <string  name="fullpayment_Compitation_fees" >fullpayment_Compitation_fees</string>
+    <string  name="partial_payment_Compitation_fees" >partial_payment_Compitation_fees</string>
+    <string  name="radiogrp_Compitation_fees" >radiogrp_Compitation_fees</string>
+    <string  name="edittext_Compitation_fees" >edittext_Compitation_fees</string>
+
+    <!--   *********  custome   Edittext Check Box -  Radio Button    -->
+
+
+
+    <string-array name="registrationType_name">
+
+        <item>Numero Mobile </item>
+        <item>Reference/Matricule</item>
+        <item>Nom</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="registrationType_code">
+
+        <item>Mobile No</item>
+        <item>Registration No</item>
+
+    </string-array>
+
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Temporary  Date @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+    <string-array name="school_dateArrayName_temp">
+        <item>Annee scolaire</item>
+        <item>2021/2022</item>
+
+    </string-array>
+
+    <string-array name="school_dateArrayCode_temp">
+        <item>Annee scolaire</item>
+        <item>2021/2022</item>
+
+    </string-array>
+
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+   // ##############################################################
+
+    <string-array name="school_date_array">
+        <item>Annee scolaire</item>
+        <item>2019/2020</item>
+
+    </string-array>
+    <string-array name="school_date_arrayCode">
+        <item>School year</item>
+        <item>2019/2020</item>
+
+    </string-array>
+    // ########################### 2019 To 2020  #################################
+
+    <string-array name="school_dateArrayName_2019_to_2020">
+        <item>Annee scolaire</item>
+        <item>2019/2020</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2019_to_2020">
+        <item>School year</item>
+        <item>2019/2020</item>
+    </string-array>
+
+
+    // ########################## 2020 To 2021  ##########################
+
+    <string-array name="school_dateArrayName_2020_to_2021">
+        <item>Annee scolaire</item>
+        <item>2019/2020</item>
+        <item>2020/2021</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2020_to_2021">
+        <item>School year</item>
+        <item>2019/2020</item>
+        <item>2020/2021</item>
+    </string-array>
+
+    // ########################## 2021 To 2022  ##########################
+
+    <string-array name="school_dateArrayName_2021_to_2022">
+        <item>Annee scolaire</item>
+        <item>2020/2021</item>
+        <item>2021/2022</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2021_to_2022">
+        <item>School year</item>
+        <item>2020/2021</item>
+        <item>2021/2022</item>
+    </string-array>
+
+    // ########################## 2022 To 2023  ##########################
+
+    <string-array name="school_dateArrayName_2022_to_2023">
+        <item>Annee scolaire</item>
+        <item>2021/2022</item>
+        <item>2022/2023</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2022_to_2023">
+        <item>School year</item>
+        <item>2021/2022</item>
+        <item>2022/2023</item>
+    </string-array>
+
+    // ########################## 2023 To 2024  ##########################
+
+    <string-array name="school_dateArrayName_2023_to_2024">
+        <item>Annee scolaire</item>
+        <item>2022/2023</item>
+        <item>2023/2024</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2023_to_2024">
+        <item>School year</item>
+        <item>2022/2023</item>
+        <item>2023/2024</item>
+    </string-array>
+
+    // ########################## 2024 To 2025  ##########################
+
+    <string-array name="school_dateArrayName_2024_to_2025">
+        <item>Annee scolaire</item>
+        <item>2023/2024</item>
+        <item>2024/2025</item>
+
+    </string-array>
+    <string-array name="school_dateArrayCode_2024_to_2025">
+        <item>School year</item>
+        <item>2023/2024</item>
+        <item>2024/2025</item>
+
+    </string-array>
+
+    <!--  ############################### Purchase Menu Airtime  6 Dec 2019 ############################### -->
+
+    <string name="buy">Buy</string>
+    <string name="airtime_small">Airtime</string>
+    <string name="airtime_capital">AIRTIME</string>
+    <string name="electricity_capital">ELECTRICITY</string>
+    <string name="pay_bill">Pay Bill</string>
+    <string name="recharge_meter">Recharge Meter</string>
+    <string name="recharge_amount">Recharge Amount</string>
+    <string name="settle_outstanding">Settle  Outstanding</string>
+    <string name="water_capital">WATER</string>
+    <string name="electricityBill_capital">ELECTRICITY BILL</string>
+    <string name="payerMobileNumber">Payer \'s mobile number</string>
+    <string name="payerMobileNumber_format"> Payer \'s mobile number %1$s digits</string>
+    <string name="billNumber_subscriberNumber"> Bill number / Subscriber number</string>
+    <string name="electricity_company"> Electricity company</string>
+    <string name="bill_number_electricityBill"> Bill number </string>
+    <string name="subscriberNumber_electricityBill">Subscriber number</string>
+    <string name="subscriberName_electricityBill">Subscriber name</string>
+    <string name="billNumber_electricityBill">Bill number</string>
+    <string name="billDate_electricityBill">Bill date</string>
+    <string name="billdueDate_electricityBill">Bill due date</string>
+    <string name="please_select_bill_topay">Please, select bills to pay</string>
+
+    <string name="buy_airtime">Buy Airtime</string>
+    <string name="electiricity_water">Electricity Water</string>
+    <string name="tv_subscription">TV Subscription</string>
+    <string name="taxes">Taxes</string>
+    <string name="cash_to_marchant">Cash to Merchant</string>
+    <string name="tv_capital">TV</string>
+    <string name="subscriptin_capital">SUBSCRIPTION</string>
+    <string name="tv_comapany_distributor">TV company / distributor</string>
+    <string name="card_subscriberNumber">Card / subscriber number</string>
+    <string name="card_subscriberNumber_format"> Card / subscriber number %1$s digits</string>
+    <string name="subscription_type"> Subscription type</string>
+    <string name="subscription_amount">Subscription amount</string>
+    <string name="option_amount">Option amount</string>
+    <string name="taxes_Capital">TAXES</string>
+    <string name="social_contribution">Social contribution</string>
+    <string name="custome">Custome</string>
+    <string name="cotial_contribution_capital">SOCIAL CONTRIBUTION</string>
+    <string name="Taxpayer_type">Taxpayer\'s type</string>
+    <string name="Taxpayer_name">Taxpayer\s name</string>
+    <string name="recharge_cashdeposit_capital">RECHARGE &amp; CASH DEPOSIT</string>
+    <string name="select_category"> Select category</string>
+    <string name="keylebel">key label</string>
+    <string name="keyValue"> key value</string>
+    <string name="keyDetails"> Key\'s details</string>
+    <string name="selectCashDepositReason"> Select cash deposit\'s reason</string>
+    <string name="electric_meter_capital"> ELECTRIC METER</string>
+    <string name="recharge">Recharge</string>
+    <string name="meter_number">Meter number</string>
+    <string name="amountOfRecharge">Amount of recharge</string>
+    <string name="searchType">Search type</string>
+    <string name="settle">Settle</string>
+    <string name="electric_outstanding_capital">ELECTRIC OUTSTANDING</string>
+    <string name="paymentOptions">Payment option</string>
+    <string name="payerAmount">Payer Amount</string>
+    <string name="outstandingAmount">Outstanding Amount</string>
+
+
+    <!--  ################################################################################################## -->
+
+</resources>

@@ -1,0 +1,182 @@
+<!--
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:stretchColumns="0,1,2">
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="#000000">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+
+                    android:gravity="center"
+                    android:text="Account Number"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+
+                    android:text=" Account Type "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Title"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Mobile Banking Service"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Action"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+
+                android:background="#000000">
+
+                <TextView
+                    android:id="@+id/accountNumberHorizontalScrolrowView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="12345"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/accountTypeHorizontalScrolrowView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="  Fixed Deposite"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/titleNumberHorizontalScrolrowView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="sharique"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/MobileBankingNumberHorizontalScrolrowView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Pending"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/actionHorizontalScrolrowView"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Activater"
+                    android:textSize="14dp" />
+
+            </TableRow>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</TableLayout>
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main_table"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+</TableLayout>
